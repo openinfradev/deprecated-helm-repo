@@ -1,0 +1,63 @@
+apiVersion: v1
+entries:
+  elasticsearch-operator:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-11-13T06:33:44.496333713Z"
+    description: A Helm chart for Kubernetes
+    digest: 4fef44c715311385eb805fd2d6cad358bcb05f9b7c225ea81ae18729130e4cbe
+    name: elasticsearch-operator
+    urls:
+    - charts/elasticsearch-operator-1.0.3.tgz
+    version: 1.0.3
+  kubernetes-event-exporter:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-11-13T06:34:05.144417402Z"
+    description: A Helm chart for Kubernetes
+    digest: ff109007ffbd5a02ff962fa81f25a50fc8e82abe36fa80daaed1b5b450aeacd4
+    name: kubernetes-event-exporter
+    type: application
+    urls:
+    - charts/kubernetes-event-exporter-1.0.0.tgz
+    version: 1.0.0
+  prometheus-operator:
+  - apiVersion: v1
+    appVersion: 0.37.0
+    created: "2020-11-13T06:23:19.96595477Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 2.6.*
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 1.9.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 5.0.*
+    description: Provides easy monitoring definitions for Kubernetes services, and
+      deployment and management of Prometheus instances.
+    digest: 47e768fbf1090256e637816164bdaf9881ee114e5c1262620675ec6c61cc1d10
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    maintainers:
+    - name: vsliouniaev
+    - name: bismarck
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    name: prometheus-operator
+    sources:
+    - https://github.com/coreos/kube-prometheus
+    - https://github.com/coreos/prometheus-operator
+    - https://coreos.com/operators/prometheus
+    urls:
+    - charts/prometheus-operator-8.12.3.tgz
+    version: 8.12.3
+generated: "2020-11-13T06:38:05Z"
+serverInfo: {}

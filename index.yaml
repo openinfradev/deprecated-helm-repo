@@ -1,62 +1,482 @@
 apiVersion: v1
 entries:
+  argo:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-11-17T02:43:34.678010088Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 1.6.*
+    description: Argo Helm Chart
+    digest: c1b53b88c160a19c6f8567667210abf21c18e4ce57dc9dc23952b5ee8771f7a7
+    name: argo
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/argo-0.1.0.tgz
+    version: 0.1.0
+  ceph-provisioners:
+  - apiVersion: v1
+    created: "2020-11-17T02:43:34.685702636Z"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: OpenStack-Helm Ceph Client
+    digest: fb21fa11f692da048f59c146d12e01fc444bd64d9f5a44966945f7beb5060b59
+    name: ceph-provisioners
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/ceph-provisioners-0.1.0.tgz
+    version: 0.1.0
+  cinder:
+  - apiVersion: v1
+    created: "2020-11-17T02:43:34.705073046Z"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: OpenStack-Helm Cinder
+    digest: 8e669529406c8bc77cf439921e5cd4a6225b8afba13395b6e449e1cd66de39c5
+    home: https://docs.openstack.org/cinder/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Cinder/OpenStack_Project_Cinder_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: cinder
+    sources:
+    - https://opendev.org/openstack/cinder
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/cinder-0.1.0.tgz
+    version: 0.1.0
+  cloud-console:
+  - apiVersion: v1
+    appVersion: 1.0.4
+    created: "2020-11-17T02:43:34.706089552Z"
+    description: Monitoring Dashboard for Tacoplay
+    digest: c11c1e66e9cff4d2239e0500cac2cd17649bd4b819421cb38969f88cbfaad529
+    name: cloud-console
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/cloud-console-1.0.7.tgz
+    version: 1.0.7
+  cronjob-backup-cloudconsole:
+  - apiVersion: v2
+    created: "2020-11-17T02:43:34.706775471Z"
+    description: A cronjob helm chart for backup cloud-console
+    digest: 8c2cf462eac65a216b30be271c123248822909b655b42b7cb4a0a944a1b3fb9b
+    name: cronjob-backup-cloudconsole
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/cronjob-backup-cloudconsole-1.0.0.tgz
+    version: 1.0.0
+  cronjob-backup-jenkins:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-11-17T02:43:34.707164832Z"
+    description: A Helm chart for Kubernetes
+    digest: 67b1a6cb4b1799c46c163d4026fa2d46a7a70361ef7908b7ecd421a08d5e9c8b
+    name: cronjob-backup-jenkins
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/cronjob-backup-jenkins-1.0.0.tgz
+    version: 1.0.0
+  cronjob-backup-keycloak:
+  - apiVersion: v2
+    created: "2020-11-17T02:43:34.707962597Z"
+    description: A cronjob helm chart for backup realm in keycloak
+    digest: 326d19231474c4d71494479074201b32e1400853e2b5abc2cd6c010e51326c26
+    name: cronjob-backup-keycloak
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/cronjob-backup-keycloak-1.0.2.tgz
+    version: 1.0.2
+  custom-network:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-11-17T02:43:34.708613101Z"
+    description: A Helm chart for Kubernetes
+    digest: 65ec4bac8be089e8ea4df5b3a5471a6a1554455f88ede1f75f0facc6377481ad
+    name: custom-network
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/custom-network-1.0.10.tgz
+    version: 1.0.10
   elasticsearch-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-13T06:37:31.559727597Z"
+    created: "2020-11-17T02:43:34.710542856Z"
     description: A Helm chart for Kubernetes
-    digest: 4fef44c715311385eb805fd2d6cad358bcb05f9b7c225ea81ae18729130e4cbe
+    digest: 7e2568b6f5c25bae60b6d85e4d3f134db2af6719c20ca1660ff4b72da6df1827
     name: elasticsearch-operator
     urls:
-    - https://artifacthub.io/hanu-helm-charts/elasticsearch-operator-1.0.3.tgz
+    - https://openinfradev.github.io/hanu-helm-charts/elasticsearch-operator-1.0.3.tgz
     version: 1.0.3
+  fluentbit-operator:
+  - apiVersion: v1
+    appVersion: 1.4.5-skt
+    created: "2020-11-17T02:43:34.714302835Z"
+    description: Provide easy log collecting definition for kubernetes pods and their
+      hosts, and management of fluentbit
+    digest: d15cc8fbdeb9c3262d8a59170a1c86e14b60b912e88e13e917480ce8b9bd4fb1
+    icon: https://dashboard.snapcraft.io/site_media/appmedia/2020/02/logo-square.png
+    keywords:
+    - fluentbit
+    - operator
+    maintainers:
+    - name: TACO Team
+    - email: usnexp@gmail.com
+      name: sungil
+    name: fluentbit-operator
+    sources:
+    - https://github.com/intelliguy/fluentbit-operator
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/fluentbit-operator-1.0.9.tgz
+    version: 1.0.9
+  glance:
+  - apiVersion: v1
+    created: "2020-11-17T02:43:34.732513003Z"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: OpenStack-Helm Glance
+    digest: b55d6bade59a9afc52e5b853344214ef768b4e95f11bd49ea661c293e2dc5f4f
+    home: https://docs.openstack.org/glance/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Glance/OpenStack_Project_Glance_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: glance
+    sources:
+    - https://opendev.org/openstack/glance
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/glance-0.1.0.tgz
+    version: 0.1.0
+  heat:
+  - apiVersion: v1
+    created: "2020-11-17T02:43:34.743560078Z"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: OpenStack-Helm Heat
+    digest: fecb90c560a573ec7cd79daad619579adf364822794c5a395fc324a71db04ba8
+    home: https://docs.openstack.org/heat/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Heat/OpenStack_Project_Heat_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: heat
+    sources:
+    - https://opendev.org/openstack/heat
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/heat-0.1.0.tgz
+    version: 0.1.0
+  horizon:
+  - apiVersion: v1
+    created: "2020-11-17T02:43:34.76296928Z"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: OpenStack-Helm Horizon
+    digest: c6d49493f6171e5b30b28f1016b8bc868975822b72dcb0fbedb47603eb0e7f64
+    home: https://docs.openstack.org/horizon/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Horizon/OpenStack_Project_Horizon_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: horizon
+    sources:
+    - https://opendev.org/openstack/horizon
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/horizon-0.1.0.tgz
+    version: 0.1.0
+  ingress:
+  - apiVersion: v1
+    created: "2020-11-17T02:43:34.768918247Z"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: OpenStack-Helm Ingress Controller
+    digest: 9e9da4c886e0093a5ea8be4f0902f592bd82af9dcb9027dc284f68b41cc68892
+    home: https://github.com/kubernetes/ingress
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: ingress
+    sources:
+    - https://github.com/kubernetes/ingress
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/ingress-0.1.0.tgz
+    version: 0.1.0
+  ironic:
+  - apiVersion: v1
+    created: "2020-11-17T02:43:34.778416916Z"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: OpenStack-Helm Ironic
+    digest: 983b2745eeae27494ae27a68389c999e4aaf309b37fc386e2205adaeb0ec9182
+    home: https://docs.openstack.org/ironic/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Ironic/OpenStack_Project_Ironic_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: ironic
+    sources:
+    - https://opendev.org/openstack/ironic
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/ironic-0.1.0.tgz
+    version: 0.1.0
+  keycloak:
+  - apiVersion: v1
+    appVersion: 10.0.0
+    created: "2020-11-17T02:43:34.786897968Z"
+    dependencies:
+    - condition: keycloak.persistence.deployPostgres
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.9.5
+    description: Open Source Identity and Access Management For Modern Applications
+      and Services
+    digest: 013f9fc813dcdf142c661f43ba02568c13430edaa322cf790d95ff5c37956b65
+    home: https://www.keycloak.org/
+    icon: https://www.keycloak.org/resources/images/keycloak_logo_480x108.png
+    keywords:
+    - sso
+    - idm
+    - openid connect
+    - saml
+    - kerberos
+    - ldap
+    maintainers:
+    - email: unguiculus@gmail.com
+      name: unguiculus
+    - email: thomas.darimont+github@gmail.com
+      name: thomasdarimont
+    name: keycloak
+    sources:
+    - https://github.com/codecentric/helm-charts
+    - https://github.com/jboss-dockerfiles/keycloak
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/keycloak-8.2.2-skt03.tgz
+    version: 8.2.2-skt03
+  keystone:
+  - apiVersion: v1
+    created: "2020-11-17T02:43:34.805836834Z"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: OpenStack-Helm Keystone
+    digest: 5b44b204c30fc3ed89332216d71d20f6d346b0e055e2a3352754144816e04222
+    home: https://docs.openstack.org/keystone/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Keystone/OpenStack_Project_Keystone_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: keystone
+    sources:
+    - https://opendev.org/openstack/keystone
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/keystone-0.1.0.tgz
+    version: 0.1.0
   kubernetes-event-exporter:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-13T06:37:31.560386799Z"
+    created: "2020-11-17T02:43:34.806280981Z"
     description: A Helm chart for Kubernetes
-    digest: ff109007ffbd5a02ff962fa81f25a50fc8e82abe36fa80daaed1b5b450aeacd4
+    digest: a3b5621aee850e55df6e5cb727541f1e2a385a8d11286a734287e0222b2f0cff
     name: kubernetes-event-exporter
     type: application
     urls:
-    - https://artifacthub.io/hanu-helm-charts/kubernetes-event-exporter-1.0.0.tgz
+    - https://openinfradev.github.io/hanu-helm-charts/kubernetes-event-exporter-1.0.0.tgz
     version: 1.0.0
-  prometheus-operator:
+  libvirt:
   - apiVersion: v1
-    appVersion: 0.37.0
-    created: "2020-11-13T06:37:31.594193013Z"
+    created: "2020-11-17T02:43:34.811777978Z"
     dependencies:
-    - condition: kubeStateMetrics.enabled
-      name: kube-state-metrics
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: 2.6.*
-    - condition: nodeExporter.enabled
-      name: prometheus-node-exporter
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: 1.9.*
-    - condition: grafana.enabled
-      name: grafana
-      repository: https://kubernetes-charts.storage.googleapis.com/
-      version: 5.0.*
-    description: Provides easy monitoring definitions for Kubernetes services, and
-      deployment and management of Prometheus instances.
-    digest: 47e768fbf1090256e637816164bdaf9881ee114e5c1262620675ec6c61cc1d10
-    home: https://github.com/coreos/prometheus-operator
-    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
-    keywords:
-    - operator
-    - prometheus
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: OpenStack-Helm libvirt
+    digest: fb6a9318c5832d6badf21b2470d4b0bf28c9c799af0a2605154aafa0c9a072f7
+    home: https://libvirt.org
     maintainers:
-    - name: vsliouniaev
-    - name: bismarck
-    - email: gianrubio@gmail.com
-      name: gianrubio
-    name: prometheus-operator
+    - name: OpenStack-Helm Authors
+    name: libvirt
     sources:
-    - https://github.com/coreos/kube-prometheus
-    - https://github.com/coreos/prometheus-operator
-    - https://coreos.com/operators/prometheus
+    - https://libvirt.org/git/?p=libvirt.git;a=summary
+    - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://artifacthub.io/hanu-helm-charts/prometheus-operator-8.12.3.tgz
-    version: 8.12.3
-generated: "2020-11-13T06:37:31.552650226Z"
+    - https://openinfradev.github.io/hanu-helm-charts/libvirt-0.1.0.tgz
+    version: 0.1.0
+  lma-addons:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-11-17T02:43:34.822379004Z"
+    description: Kubernetes Resources for TACO Project
+    digest: ed2c5c17719f2c0213fd79b98b34fce74194ed7de76e9debb9df5ba66d69e1c4
+    name: lma-addons
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/lma-addons-1.0.6.tgz
+    version: 1.0.6
+  mariadb:
+  - apiVersion: v1
+    created: "2020-11-17T02:43:34.830083637Z"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: OpenStack-Helm MariaDB
+    digest: b15c6978ab897d5424f57014721a8856d924a6d30f8eee2f5fda4c56af293c4b
+    home: https://mariadb.com/kb/en/
+    icon: http://badges.mariadb.org/mariadb-badge-180x60.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: mariadb
+    sources:
+    - https://github.com/MariaDB/server
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/mariadb-0.1.0.tgz
+    version: 0.1.0
+  memcached:
+  - apiVersion: v1
+    created: "2020-11-17T02:43:34.837391691Z"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: OpenStack-Helm Memcached
+    digest: 3399b30ea77a0134bd504550793198109a3eae5bc5499902a1730a1c7d93b8e7
+    name: memcached
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/memcached-0.1.0.tgz
+    version: 0.1.0
+  neutron:
+  - apiVersion: v1
+    created: "2020-11-17T02:43:34.859128231Z"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: OpenStack-Helm Neutron
+    digest: c21aa3eed6fe7c66290f9d1f014a8ece5981a9e7473aca7822b74d60b429d809
+    home: https://docs.openstack.org/neutron/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Neutron/OpenStack_Project_Neutron_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: neutron
+    sources:
+    - https://opendev.org/openstack/neutron
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/neutron-0.1.0.tgz
+    version: 0.1.0
+  nova:
+  - apiVersion: v1
+    created: "2020-11-17T02:43:34.876198783Z"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: OpenStack-Helm Nova
+    digest: 929a5d9c9cd82b8e9dc78413ac5ae206d0f283c84260eb9d8ad67e9e953b099a
+    home: https://docs.openstack.org/nova/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Nova/OpenStack_Project_Nova_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: nova
+    sources:
+    - https://opendev.org/openstack/nova
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/nova-0.1.0.tgz
+    version: 0.1.0
+  prometheus-openstack-exporter:
+  - apiVersion: v1
+    created: "2020-11-17T02:43:34.881709982Z"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: OpenStack Metrics Exporter for Prometheus
+    digest: 98dff764d1500317ae33bf2df13f3c5dbee893ee8eb0e28eea566291befbb13e
+    home: https://github.com/openstack/openstack-helm-infra
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: prometheus-openstack-exporter
+    sources:
+    - https://opendev.org/openstack/openstack-helm-infra
+    - https://github.com/rakesh-patnaik/prometheus-openstack-exporter
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/prometheus-openstack-exporter-0.1.0.tgz
+    version: 0.1.0
+  rabbitmq:
+  - apiVersion: v1
+    created: "2020-11-17T02:43:34.888278659Z"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: OpenStack-Helm RabbitMQ
+    digest: 7c9172775312acb0b2ebe4f8741197ce57089eb22efca36c073b55ed609829dd
+    name: rabbitmq
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/rabbitmq-0.1.0.tgz
+    version: 0.1.0
+  sample-hpa-app:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-11-17T02:43:34.888661589Z"
+    description: A Helm chart for Kubernetes
+    digest: 43fdde5cf109b35c4d4a89f09b5514d595e7acff0947de265b8358992fe850d1
+    name: sample-hpa-app
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/sample-hpa-app-0.1.0.tgz
+    version: 0.1.0
+  site-mirror-registry:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-11-17T02:43:34.889183353Z"
+    description: docker registry for site mirroring
+    digest: a529617c2730dcbaf5a6c9ecb9ca418ff3a0224113153c31c89403ad0a0f2b38
+    name: site-mirror-registry
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/site-mirror-registry-0.0.3.tgz
+    version: 0.0.3
+  sona:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-11-17T02:43:34.892372884Z"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: 0.1.0
+    description: A Helm chart for SONA deployment
+    digest: 8386f6ab53efdded8e5b61e87bf0c6ad25687d79dbf943db49ee98bbb6916db8
+    home: https://wiki.onosproject.org/display/ONOS/SONA%3A+DC+Network+Virtualization
+    name: sona
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/sona-0.1.0.tgz
+    version: 0.1.0
+  taco-registry:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-11-17T02:43:34.895912592Z"
+    description: A Helm chart for Kubernetes
+    digest: dbd6292a52122646320b3499c4fb273561a0a4bb93c44c4f612fcda66bade7dc
+    name: taco-registry
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/taco-registry-1.0.6.tgz
+    version: 1.0.6
+  taco-watcher:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-11-17T02:43:34.897498538Z"
+    description: Monitoring Dashboard for Tacoplay
+    digest: 3d156bf7e942f4f0d2adbf1d2012d02f326adc835c87768b1467f970577632ad
+    name: taco-watcher
+    urls:
+    - https://openinfradev.github.io/hanu-helm-charts/taco-watcher-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-11-17T02:43:34.674679994Z"

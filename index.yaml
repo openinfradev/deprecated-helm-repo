@@ -3,7 +3,7 @@ entries:
   argo:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-24T13:43:42.011862462Z"
+    created: "2020-11-25T10:02:09.068718714Z"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -17,7 +17,7 @@ entries:
     version: 0.1.0
   ceph-provisioners:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.023092897Z"
+    created: "2020-11-25T10:02:09.078156544Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -30,7 +30,7 @@ entries:
     version: 0.1.0
   cinder:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.045773379Z"
+    created: "2020-11-25T10:02:09.100116119Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -51,7 +51,7 @@ entries:
   cloud-console:
   - apiVersion: v1
     appVersion: 1.0.4
-    created: "2020-11-24T13:43:42.048402636Z"
+    created: "2020-11-25T10:02:09.102346396Z"
     description: Monitoring Dashboard for Tacoplay
     digest: c11c1e66e9cff4d2239e0500cac2cd17649bd4b819421cb38969f88cbfaad529
     name: cloud-console
@@ -60,7 +60,7 @@ entries:
     version: 1.0.7
   cronjob-backup-cloudconsole:
   - apiVersion: v2
-    created: "2020-11-24T13:43:42.050079587Z"
+    created: "2020-11-25T10:02:09.103911962Z"
     description: A cronjob helm chart for backup cloud-console
     digest: 8c2cf462eac65a216b30be271c123248822909b655b42b7cb4a0a944a1b3fb9b
     name: cronjob-backup-cloudconsole
@@ -70,7 +70,7 @@ entries:
   cronjob-backup-jenkins:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-24T13:43:42.051281053Z"
+    created: "2020-11-25T10:02:09.105014462Z"
     description: A Helm chart for Kubernetes
     digest: 67b1a6cb4b1799c46c163d4026fa2d46a7a70361ef7908b7ecd421a08d5e9c8b
     name: cronjob-backup-jenkins
@@ -79,7 +79,7 @@ entries:
     version: 1.0.0
   cronjob-backup-keycloak:
   - apiVersion: v2
-    created: "2020-11-24T13:43:42.053412434Z"
+    created: "2020-11-25T10:02:09.106755113Z"
     description: A cronjob helm chart for backup realm in keycloak
     digest: 326d19231474c4d71494479074201b32e1400853e2b5abc2cd6c010e51326c26
     name: cronjob-backup-keycloak
@@ -89,7 +89,7 @@ entries:
   custom-network:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-24T13:43:42.05504827Z"
+    created: "2020-11-25T10:02:09.108182573Z"
     description: A Helm chart for Kubernetes
     digest: 65ec4bac8be089e8ea4df5b3a5471a6a1554455f88ede1f75f0facc6377481ad
     name: custom-network
@@ -99,7 +99,7 @@ entries:
   elasticsearch-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-24T13:43:42.058485599Z"
+    created: "2020-11-25T10:02:09.112122415Z"
     description: A Helm chart for Kubernetes
     digest: 7e2568b6f5c25bae60b6d85e4d3f134db2af6719c20ca1660ff4b72da6df1827
     name: elasticsearch-operator
@@ -109,7 +109,7 @@ entries:
   fluentbit-operator:
   - apiVersion: v1
     appVersion: 1.4.5-skt
-    created: "2020-11-24T13:43:42.066430947Z"
+    created: "2020-11-25T10:02:09.120574378Z"
     description: Provide easy log collecting definition for kubernetes pods and their
       hosts, and management of fluentbit
     digest: d15cc8fbdeb9c3262d8a59170a1c86e14b60b912e88e13e917480ce8b9bd4fb1
@@ -129,7 +129,7 @@ entries:
     version: 1.0.9
   glance:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.082801987Z"
+    created: "2020-11-25T10:02:09.13881828Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -147,9 +147,26 @@ entries:
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/glance-0.1.0.tgz
     version: 0.1.0
+  grafana:
+  - apiVersion: v1
+    appVersion: 7.1.1
+    created: "2020-11-25T10:02:09.144245143Z"
+    deprecated: true
+    description: DEPRECATED - The leading tool for querying and visualizing time series
+      and metrics.
+    digest: 1a72b59f6a2315438e3823bb08c19bf0a4d4cce00c6d3e5fe5aac03d526986e3
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    urls:
+    - https://openinfradev.github.io/hanu-helm-repo/grafana-5.5.7.tgz
+    version: 5.5.7
   heat:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.101787455Z"
+    created: "2020-11-25T10:02:09.162711964Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -169,7 +186,7 @@ entries:
     version: 0.1.0
   horizon:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.127884698Z"
+    created: "2020-11-25T10:02:09.18627501Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -189,7 +206,7 @@ entries:
     version: 0.1.0
   ingress:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.137372293Z"
+    created: "2020-11-25T10:02:09.195606794Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -208,7 +225,7 @@ entries:
     version: 0.1.0
   ironic:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.150439171Z"
+    created: "2020-11-25T10:02:09.21110999Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -229,7 +246,7 @@ entries:
   keycloak:
   - apiVersion: v1
     appVersion: 10.0.0
-    created: "2020-11-24T13:43:42.166036955Z"
+    created: "2020-11-25T10:02:09.223977147Z"
     dependencies:
     - condition: keycloak.persistence.deployPostgres
       name: postgresql
@@ -261,7 +278,7 @@ entries:
     version: 8.2.2-skt03
   keystone:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.184573453Z"
+    created: "2020-11-25T10:02:09.244221453Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -282,7 +299,7 @@ entries:
   kube-state-metrics:
   - apiVersion: v1
     appVersion: 1.9.7
-    created: "2020-11-24T13:43:42.187324937Z"
+    created: "2020-11-25T10:02:09.246587441Z"
     deprecated: true
     description: DEPRECATED - Install kube-state-metrics to generate and expose cluster-level
       metrics
@@ -302,7 +319,7 @@ entries:
   kubernetes-event-exporter:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-24T13:43:42.188700981Z"
+    created: "2020-11-25T10:02:09.247815315Z"
     description: A Helm chart for Kubernetes
     digest: a3b5621aee850e55df6e5cb727541f1e2a385a8d11286a734287e0222b2f0cff
     name: kubernetes-event-exporter
@@ -312,7 +329,7 @@ entries:
     version: 1.0.0
   libvirt:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.195298882Z"
+    created: "2020-11-25T10:02:09.254219945Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -332,7 +349,7 @@ entries:
   lma-addons:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-24T13:43:42.207108568Z"
+    created: "2020-11-25T10:02:09.266610123Z"
     description: Kubernetes Resources for TACO Project
     digest: ed2c5c17719f2c0213fd79b98b34fce74194ed7de76e9debb9df5ba66d69e1c4
     name: lma-addons
@@ -341,7 +358,7 @@ entries:
     version: 1.0.6
   mariadb:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.219094016Z"
+    created: "2020-11-25T10:02:09.281482332Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -361,7 +378,7 @@ entries:
     version: 0.1.0
   memcached:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.228606926Z"
+    created: "2020-11-25T10:02:09.288705386Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -374,7 +391,7 @@ entries:
     version: 0.1.0
   neutron:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.257647552Z"
+    created: "2020-11-25T10:02:09.316212994Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -394,7 +411,7 @@ entries:
     version: 0.1.0
   nova:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.283929812Z"
+    created: "2020-11-25T10:02:09.348012601Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -415,7 +432,7 @@ entries:
   prometheus-adapter:
   - apiVersion: v1
     appVersion: v0.7.0
-    created: "2020-11-24T13:43:42.285945803Z"
+    created: "2020-11-25T10:02:09.350596991Z"
     deprecated: true
     description: DEPRECATED A Helm chart for k8s prometheus adapter
     digest: 17f96f0063a2e4389976f9f10814db880568d3cb6b3e0433beec97695f0fd301
@@ -435,7 +452,7 @@ entries:
   prometheus-node-exporter:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-11-24T13:43:42.287731145Z"
+    created: "2020-11-25T10:02:09.353088832Z"
     deprecated: true
     description: DEPRECATED A Helm chart for prometheus node-exporter
     digest: fa0248a4fc222401938ae887c3afb430cee45b2ba19fff169410deb607a95103
@@ -452,7 +469,7 @@ entries:
     version: 1.11.2
   prometheus-openstack-exporter:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.296410408Z"
+    created: "2020-11-25T10:02:09.362374744Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -472,7 +489,7 @@ entries:
   prometheus-operator:
   - apiVersion: v1
     appVersion: 0.38.1
-    created: "2020-11-24T13:43:42.34107482Z"
+    created: "2020-11-25T10:02:09.408378541Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -505,7 +522,7 @@ entries:
     version: 9.3.2
   prometheus-process-exporter:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.347048554Z"
+    created: "2020-11-25T10:02:09.414579007Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -525,7 +542,7 @@ entries:
   prometheus-pushgateway:
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-11-24T13:43:42.348967707Z"
+    created: "2020-11-25T10:02:09.416533088Z"
     deprecated: true
     description: DEPRECATED A Helm chart for prometheus pushgateway
     digest: db8dedf565472848e635525c0a6e129a249067c44482c515e0b4adbe92fa1217
@@ -541,7 +558,7 @@ entries:
     version: 1.4.3
   rabbitmq:
   - apiVersion: v1
-    created: "2020-11-24T13:43:42.35977837Z"
+    created: "2020-11-25T10:02:09.425205755Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -555,7 +572,7 @@ entries:
   sample-hpa-app:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-24T13:43:42.360848095Z"
+    created: "2020-11-25T10:02:09.426419736Z"
     description: A Helm chart for Kubernetes
     digest: 43fdde5cf109b35c4d4a89f09b5514d595e7acff0947de265b8358992fe850d1
     name: sample-hpa-app
@@ -565,7 +582,7 @@ entries:
   site-mirror-registry:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-24T13:43:42.362107237Z"
+    created: "2020-11-25T10:02:09.427717966Z"
     description: docker registry for site mirroring
     digest: a529617c2730dcbaf5a6c9ecb9ca418ff3a0224113153c31c89403ad0a0f2b38
     name: site-mirror-registry
@@ -575,7 +592,7 @@ entries:
   sona:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-24T13:43:42.368598516Z"
+    created: "2020-11-25T10:02:09.436759521Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -590,7 +607,7 @@ entries:
   taco-registry:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-24T13:43:42.37148294Z"
+    created: "2020-11-25T10:02:09.440122009Z"
     description: A Helm chart for Kubernetes
     digest: dbd6292a52122646320b3499c4fb273561a0a4bb93c44c4f612fcda66bade7dc
     name: taco-registry
@@ -600,11 +617,11 @@ entries:
   taco-watcher:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-11-24T13:43:42.373432524Z"
+    created: "2020-11-25T10:02:09.441827613Z"
     description: Monitoring Dashboard for Tacoplay
     digest: 3d156bf7e942f4f0d2adbf1d2012d02f326adc835c87768b1467f970577632ad
     name: taco-watcher
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/taco-watcher-0.1.0.tgz
     version: 0.1.0
-generated: "2020-11-24T13:43:42.004326735Z"
+generated: "2020-11-25T10:02:09.061036655Z"

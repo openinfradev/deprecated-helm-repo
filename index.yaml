@@ -345,9 +345,9 @@ entries:
     version: 0.1.0
   istio-operator:
   - apiVersion: v1
-    created: "2021-04-20T02:42:45.592184834Z"
+    created: "2021-04-21T02:43:42.434946411Z"
     description: Helm chart for deploying Istio operator
-    digest: 354feaed76068e651200ca6f89c77de8cba9b25d90ef8d8f87e176f508e128dc
+    digest: ca39f426b927cc0240d7c78c5af383a24c0271f54a2d16b3922874cd2079369c
     icon: https://istio.io/latest/favicons/android-192x192.png
     keywords:
     - istio
@@ -786,4 +786,4 @@ entries:
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/thanos-config-0.1.3.tgz
     version: 0.1.3
-generated: "2021-04-20T02:42:45.59160892Z"
+generated: "2021-04-21T02:43:42.434359878Z"

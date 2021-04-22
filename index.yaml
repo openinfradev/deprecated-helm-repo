@@ -3,9 +3,9 @@ entries:
   argo:
   - apiVersion: v1
     appVersion: v2.12.5
-    created: "2021-04-13T03:53:08.725919608Z"
+    created: "2021-04-22T05:19:20.947954306Z"
     description: Argo Helm Chart
-    digest: cf713d56fbad7e5982c95afa6ad9d0f0fad17f0343cf157019c5c259170662a7
+    digest: 32bee4ab5181d6d54be40658be47c81b1b3f678206d13b3db6313e43909d5ccb
     name: argo
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/argo-1.1.0.tgz
@@ -79,9 +79,9 @@ entries:
   cloud-console:
   - apiVersion: v1
     appVersion: 1.0.4
-    created: "2021-04-13T03:53:08.726850414Z"
+    created: "2021-04-22T05:19:20.949013458Z"
     description: Monitoring Dashboard for Tacoplay
-    digest: cfd870ea5efe6b6178a24366b355844be20c7cffd4649fd02efe0f444fb2c83b
+    digest: 75de457fe52ffc531e8d4dd4452bf87a1cfcfac8dedc57c8083f9a1d389c1a63
     name: cloud-console
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/cloud-console-1.0.7.tgz
@@ -98,14 +98,14 @@ entries:
   cluster-api-openstack:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2021-04-13T03:53:08.73147094Z"
+    created: "2021-04-22T05:19:20.954377123Z"
     dependencies:
     - name: helm-toolkit
       repository: https://openinfradev.github.io/hanu-helm-repo
       version: '>= 0.1.0'
     description: Install Cluster API Provider OpenStack manifests to generate a fully
       working Kubernetes cluster
-    digest: aacc7003c1574609aa1fc741d89d85845d01ddfb5ecbbe18360180779a26307f
+    digest: 70e21fc84b2b9f18998fad929b24f6ea32421d5d6c561d07e99a77422f47efad
     keywords:
     - clusterapi
     - provisioning
@@ -121,9 +121,9 @@ entries:
     version: 1.0.0
   cronjob-backup-cloudconsole:
   - apiVersion: v2
-    created: "2021-04-13T03:53:08.731987843Z"
+    created: "2021-04-22T05:19:20.954986353Z"
     description: A cronjob helm chart for backup cloud-console
-    digest: 78852c382d09554247baeac95fd782efd95dca34c889fce1f5fe3ebc98de64b2
+    digest: dc7663bcf14fc847141b803ae02208dd758043f67d042244249945f8d0c04595
     name: cronjob-backup-cloudconsole
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/cronjob-backup-cloudconsole-1.0.0.tgz
@@ -131,18 +131,18 @@ entries:
   cronjob-backup-jenkins:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-13T03:53:08.732284044Z"
+    created: "2021-04-22T05:19:20.955414474Z"
     description: A Helm chart for Kubernetes
-    digest: 232af1614065ec9865ae8f7aeba43dd5c387099df5eec9b0339ff07ea352a051
+    digest: fe4ee4f897a721b939f45733b3e8ce8442b376b94a48e32606cc5fd9d95ad2c1
     name: cronjob-backup-jenkins
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/cronjob-backup-jenkins-1.0.0.tgz
     version: 1.0.0
   cronjob-backup-keycloak:
   - apiVersion: v2
-    created: "2021-04-13T03:53:08.732968148Z"
+    created: "2021-04-22T05:19:20.956172211Z"
     description: A cronjob helm chart for backup realm in keycloak
-    digest: eeff390c1cb7579e30cd34c49791e81880a1e7ae848a26b16a6aa95c8e48796f
+    digest: b45b9f244e968307535d314144871f3b1ff6f4686759b2eda1fca3784ed5f87f
     name: cronjob-backup-keycloak
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/cronjob-backup-keycloak-1.0.2.tgz
@@ -150,14 +150,23 @@ entries:
   custom-network:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-13T03:53:08.733622852Z"
+    created: "2021-04-22T05:19:20.956931249Z"
     description: A Helm chart for Kubernetes
-    digest: 6e12f02a51abe2198a4a0dcaa7e44440b2a40404c291c3acf24f5dee17a34dec
+    digest: a81822659e79e93a1d461800b8394acf537643ecd145a1816afd7006c3b5b669
     name: custom-network
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/custom-network-1.0.10.tgz
     version: 1.0.10
   eck-resource:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-04-22T05:19:20.957578981Z"
+    description: Deploy resources of eck operator
+    digest: 29d3fc69322ba3c51d73e41f1f203c05f92dc06b22974536592b8a28b47c5968
+    name: eck-resource
+    urls:
+    - https://openinfradev.github.io/hanu-helm-repo/eck-resource-1.1.0.tgz
+    version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
     created: "2021-04-13T03:53:08.734898759Z"
@@ -179,9 +188,9 @@ entries:
   elasticsearch-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-13T03:53:08.737989876Z"
+    created: "2021-04-22T05:19:20.959953998Z"
     description: A Helm chart for Kubernetes
-    digest: 815ad07c09a313e55c9c0e21d6e5dc44cf1ab543e8ac50781ac374ad5627d7d9
+    digest: 87ba18f3f7f50696aeec1376a58f89aa9a770ec297cd7cd51a2c18c3c3b8a05e
     name: elasticsearch-operator
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/elasticsearch-operator-1.0.3.tgz
@@ -189,10 +198,10 @@ entries:
   fluentbit-operator:
   - apiVersion: v1
     appVersion: 1.4.5-skt
-    created: "2021-04-13T03:53:08.74050859Z"
+    created: "2021-04-22T05:19:20.964518323Z"
     description: Provide easy log collecting definition for kubernetes pods and their
       hosts, and management of fluentbit
-    digest: caaa8a1c4c7f234e6f6ab1204fa802e24a6408c190711130e41fe083e2cf940c
+    digest: dd7b419d7b8a02586960bfa74c3aa089a93dc7fff78c810ce77976492a72589d
     icon: https://dashboard.snapcraft.io/site_media/appmedia/2020/02/logo-square.png
     keywords:
     - fluentbit
@@ -361,7 +370,7 @@ entries:
   keycloak:
   - apiVersion: v1
     appVersion: 10.0.0
-    created: "2021-04-13T03:53:08.747134428Z"
+    created: "2021-04-22T05:19:20.972678526Z"
     dependencies:
     - condition: keycloak.persistence.deployPostgres
       name: postgresql
@@ -369,7 +378,7 @@ entries:
       version: 8.9.5
     description: Open Source Identity and Access Management For Modern Applications
       and Services
-    digest: 9352e58a411219d9cdc8b92805043a3eb01c57f3f4031fafb1801f6a922cb206
+    digest: 2594d84e859daf2c62ee26d5b35450f4e98a3e20bea85fbf4731281fa32415e0
     home: https://www.keycloak.org/
     icon: https://www.keycloak.org/resources/images/keycloak_logo_480x108.png
     keywords:
@@ -414,9 +423,9 @@ entries:
   kubernetes-event-exporter:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-13T03:53:08.74750873Z"
+    created: "2021-04-22T05:19:20.973150449Z"
     description: A Helm chart for Kubernetes
-    digest: 2adf6e6c3e00ceb33c6c726ff74270181deaae3875396505211ad3ef2c4def4a
+    digest: 5adfc7fcc914e351eb72e69dd0ca2b7cbca38434ab69e68b483ba149138285f0
     name: kubernetes-event-exporter
     type: application
     urls:
@@ -444,9 +453,9 @@ entries:
   lma-addons:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-13T03:53:08.754267668Z"
+    created: "2021-04-22T05:19:20.980740023Z"
     description: Kubernetes Resources for TACO Project
-    digest: 532ca7b598466cbd69eb0ec38ecf75f8593ef291a53958e9a4a34bfe795850ec
+    digest: 90d85a15da38d0277053d953e1597bab2d84e4e3d97ab1fe8aa9f6c95173dda3
     name: lma-addons
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/lma-addons-1.3.0.tgz
@@ -683,9 +692,9 @@ entries:
   sample-hpa-app:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-13T03:53:08.754512169Z"
+    created: "2021-04-22T05:19:20.981014837Z"
     description: A Helm chart for Kubernetes
-    digest: bb5e76297b6c60cdf0cc5d7a8128632d25e8f7c969b1c6e99022b815912f1bd4
+    digest: a02a7b1eeb1832e2d62f211d76f5badbe5839618a17ed0709bcd4f5a547a0f49
     name: sample-hpa-app
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/sample-hpa-app-0.1.0.tgz
@@ -693,9 +702,9 @@ entries:
   service-mesh-resource:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-13T03:53:08.754826871Z"
+    created: "2021-04-22T05:19:20.981364754Z"
     description: A chart for the additional k8s resources related to service mesh
-    digest: 92ed04f8fee1d0dda066b30fc474e7fc7ced626a3592d4358a62ed776cdd1989
+    digest: 204cf102ebd6c238ad376c2fc3778bd676328bfb06401a607e0cbdae59ac8965
     name: service-mesh-resource
     type: application
     urls:
@@ -734,9 +743,9 @@ entries:
   site-mirror-registry:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-13T03:53:08.755201973Z"
+    created: "2021-04-22T05:19:20.981906681Z"
     description: docker registry for site mirroring
-    digest: 4151a3bc4bcb019d303ae58773ae7eb2ae8e405f826a4a60fd0f64a618b1e327
+    digest: 84b80043fb9cf50fe747812ee1fda578d5c728c263e47d074707a5464e7dd39f
     name: site-mirror-registry
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/site-mirror-registry-0.0.3.tgz
@@ -759,9 +768,9 @@ entries:
   taco-registry:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-13T03:53:08.756330979Z"
+    created: "2021-04-22T05:19:20.983208045Z"
     description: A Helm chart for Kubernetes
-    digest: ccd45ab4eafd3b96b6bb3b3be905758040080bceab09dcd63c6022d0548a12ae
+    digest: be992252703ea03b77654256d5c9cbe6088dff36b9c4fe900f0cf84137e33a28
     name: taco-registry
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/taco-registry-1.0.6.tgz
@@ -769,9 +778,9 @@ entries:
   taco-watcher:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-13T03:53:08.758034789Z"
+    created: "2021-04-22T05:19:20.983882078Z"
     description: Monitoring Dashboard for Tacoplay
-    digest: dc60a829d966aead0035d17c084d728a2dff9ccc584cf952897f3ef1150ad20b
+    digest: fd5bcd029f68265928955a10fdc2280ab60a621af68e49ab698c24556ddce15a
     name: taco-watcher
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/taco-watcher-0.1.0.tgz
@@ -779,11 +788,11 @@ entries:
   thanos-config:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-13T03:53:08.758344991Z"
+    created: "2021-04-22T05:19:20.984194194Z"
     description: Chart for Thanos configuration
-    digest: fa8007f4328fff6e078d417d455b4fefdf8b6414e7146f3c67705fd2a12f8141
+    digest: 0d3aaf0d1fdcfda84c7c7dd4f81e5f6fa071bc1b408a99c3df13b3fe0c034dc1
     name: thanos-config
     urls:
     - https://openinfradev.github.io/hanu-helm-repo/thanos-config-0.1.3.tgz
     version: 0.1.3
-generated: "2021-04-22T02:44:06.326651187Z"
+generated: "2021-04-22T05:19:20.947173967Z"

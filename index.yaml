@@ -8,7 +8,7 @@ entries:
     digest: 37598ef2ef6483c627fce74ec38a56f53287a6aca15a2f7c0cdf87c09b728dd6
     name: argo
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/argo-1.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/argo-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
@@ -22,7 +22,7 @@ entries:
     digest: 9f0926a87fd4355be728a9b0ed5811d0c5cdb84b7b0980c9fa21607ada0f1b8d
     name: argo
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/argo-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/argo-0.1.0.tgz
     version: 0.1.0
   ceph-provisioners:
   - apiVersion: v1
@@ -35,7 +35,7 @@ entries:
     digest: fb21fa11f692da048f59c146d12e01fc444bd64d9f5a44966945f7beb5060b59
     name: ceph-provisioners
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/ceph-provisioners-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/ceph-provisioners-0.1.0.tgz
     version: 0.1.0
   cinder:
   - apiVersion: v1
@@ -55,7 +55,7 @@ entries:
     - https://opendev.org/openstack/cinder
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/cinder-0.1.1.tgz
+    - https://openinfradev.github.io/helm-repo/cinder-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
     created: "2021-04-11T02:44:48.305612679Z"
@@ -74,7 +74,7 @@ entries:
     - https://opendev.org/openstack/cinder
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/cinder-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/cinder-0.1.0.tgz
     version: 0.1.0
   cloud-console:
   - apiVersion: v1
@@ -84,7 +84,7 @@ entries:
     digest: 89e52c7c6f2982e5bec0554eff7e1be28df21a650a373cf9cc086fecd607cd26
     name: cloud-console
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/cloud-console-1.0.7.tgz
+    - https://openinfradev.github.io/helm-repo/cloud-console-1.0.7.tgz
     version: 1.0.7
   - apiVersion: v1
     appVersion: 1.0.0
@@ -93,7 +93,7 @@ entries:
     digest: 771b2e97343414b151f7a9f7a98fda309146482b25c2b333aea8ba94d8308ccf
     name: cloud-console
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/cloud-console-1.0.0.tgz
+    - https://openinfradev.github.io/helm-repo/cloud-console-1.0.0.tgz
     version: 1.0.0
   cluster-api-openstack:
   - apiVersion: v2
@@ -101,7 +101,7 @@ entries:
     created: "2021-05-06T08:31:15.411247912Z"
     dependencies:
     - name: helm-toolkit
-      repository: https://openinfradev.github.io/hanu-helm-repo
+      repository: https://openinfradev.github.io/helm-repo
       version: '>= 0.1.0'
     description: Install Cluster API Provider OpenStack manifests to generate a fully
       working Kubernetes cluster
@@ -117,7 +117,7 @@ entries:
     name: cluster-api-openstack
     type: application
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/cluster-api-openstack-1.0.0.tgz
+    - https://openinfradev.github.io/helm-repo/cluster-api-openstack-1.0.0.tgz
     version: 1.0.0
   cronjob-backup-cloudconsole:
   - apiVersion: v2
@@ -126,7 +126,7 @@ entries:
     digest: 9ee7fa153f6dbefcf5c6e88c606dde1a2bb402ecdd4ed3a6323a47a006562d25
     name: cronjob-backup-cloudconsole
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/cronjob-backup-cloudconsole-1.0.0.tgz
+    - https://openinfradev.github.io/helm-repo/cronjob-backup-cloudconsole-1.0.0.tgz
     version: 1.0.0
   cronjob-backup-jenkins:
   - apiVersion: v1
@@ -136,7 +136,7 @@ entries:
     digest: 07c1cdf88f8a36b031b92b086a3f7817c9f63941fcfa983910da4070f72cab44
     name: cronjob-backup-jenkins
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/cronjob-backup-jenkins-1.0.0.tgz
+    - https://openinfradev.github.io/helm-repo/cronjob-backup-jenkins-1.0.0.tgz
     version: 1.0.0
   cronjob-backup-keycloak:
   - apiVersion: v2
@@ -145,7 +145,7 @@ entries:
     digest: 69e293bb91f6b248decddd6008049770d584f4909f4b60bd97a248928275c94d
     name: cronjob-backup-keycloak
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/cronjob-backup-keycloak-1.0.2.tgz
+    - https://openinfradev.github.io/helm-repo/cronjob-backup-keycloak-1.0.2.tgz
     version: 1.0.2
   custom-network:
   - apiVersion: v1
@@ -155,7 +155,7 @@ entries:
     digest: a9eeea77463bc50945ba5bb2ead83e15a83e9690bd636aff23aae58e9bc10618
     name: custom-network
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/custom-network-1.0.10.tgz
+    - https://openinfradev.github.io/helm-repo/custom-network-1.0.10.tgz
     version: 1.0.10
   eck-resource:
   - apiVersion: v1
@@ -165,7 +165,7 @@ entries:
     digest: e31b02301d79c944d70aacee0a197e8d455a7a40ef1d583083b4e54c0dabe3d1
     name: eck-resource
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/eck-resource-1.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/eck-resource-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
@@ -174,7 +174,7 @@ entries:
     digest: 04cccdcfb9dd2ba021f7cd9802741db5000b429feaf4a546ea0beaf4ba42237d
     name: eck-resource
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/eck-resource-1.0.1.tgz
+    - https://openinfradev.github.io/helm-repo/eck-resource-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v1
     appVersion: "1.0"
@@ -183,7 +183,7 @@ entries:
     digest: 171b8361bed6e5e3ed5b4a504f0796f9cbec8c482db615a31c5a6cedfa734eda
     name: eck-resource
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/eck-resource-1.0.0.tgz
+    - https://openinfradev.github.io/helm-repo/eck-resource-1.0.0.tgz
     version: 1.0.0
   elasticsearch-operator:
   - apiVersion: v1
@@ -193,7 +193,7 @@ entries:
     digest: 942f26a80fb83a32d0ee312d425afe5a0cdbd4969138bbc705ec03decd8c6589
     name: elasticsearch-operator
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/elasticsearch-operator-1.0.3.tgz
+    - https://openinfradev.github.io/helm-repo/elasticsearch-operator-1.0.3.tgz
     version: 1.0.3
   fluentbit-operator:
   - apiVersion: v1
@@ -214,7 +214,7 @@ entries:
     sources:
     - https://github.com/intelliguy/fluentbit-operator
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/fluentbit-operator-1.0.10.tgz
+    - https://openinfradev.github.io/helm-repo/fluentbit-operator-1.0.10.tgz
     version: 1.0.10
   - apiVersion: v1
     appVersion: 1.4.5-skt
@@ -234,7 +234,7 @@ entries:
     sources:
     - https://github.com/intelliguy/fluentbit-operator
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/fluentbit-operator-1.0.9.tgz
+    - https://openinfradev.github.io/helm-repo/fluentbit-operator-1.0.9.tgz
     version: 1.0.9
   glance:
   - apiVersion: v1
@@ -254,7 +254,7 @@ entries:
     - https://opendev.org/openstack/glance
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/glance-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/glance-0.1.0.tgz
     version: 0.1.0
   heat:
   - apiVersion: v1
@@ -274,7 +274,7 @@ entries:
     - https://opendev.org/openstack/heat
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/heat-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/heat-0.1.0.tgz
     version: 0.1.0
   helm-toolkit:
   - apiVersion: v1
@@ -291,7 +291,7 @@ entries:
     - https://opendev.org/openstack/openstack-helm-infra
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/helm-toolkit-0.2.5.tgz
+    - https://openinfradev.github.io/helm-repo/helm-toolkit-0.2.5.tgz
     version: 0.2.5
   horizon:
   - apiVersion: v1
@@ -311,7 +311,7 @@ entries:
     - https://opendev.org/openstack/horizon
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/horizon-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/horizon-0.1.0.tgz
     version: 0.1.0
   ingress:
   - apiVersion: v1
@@ -330,7 +330,7 @@ entries:
     - https://github.com/kubernetes/ingress
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/ingress-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/ingress-0.1.0.tgz
     version: 0.1.0
   ironic:
   - apiVersion: v1
@@ -350,7 +350,7 @@ entries:
     - https://opendev.org/openstack/ironic
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/ironic-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/ironic-0.1.0.tgz
     version: 0.1.0
   istio-operator:
   - apiVersion: v1
@@ -365,7 +365,7 @@ entries:
     sources:
     - https://github.com/istio/istio/tree/master/operator
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/istio-operator-1.7.0.tgz
+    - https://openinfradev.github.io/helm-repo/istio-operator-1.7.0.tgz
     version: 1.7.0
   keycloak:
   - apiVersion: v1
@@ -398,7 +398,7 @@ entries:
     - https://github.com/codecentric/helm-charts
     - https://github.com/jboss-dockerfiles/keycloak
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/keycloak-8.2.2-skt03.tgz
+    - https://openinfradev.github.io/helm-repo/keycloak-8.2.2-skt03.tgz
     version: 8.2.2-skt03
   keystone:
   - apiVersion: v1
@@ -418,7 +418,7 @@ entries:
     - https://opendev.org/openstack/keystone
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/keystone-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/keystone-0.1.0.tgz
     version: 0.1.0
   kubernetes-event-exporter:
   - apiVersion: v2
@@ -429,7 +429,7 @@ entries:
     name: kubernetes-event-exporter
     type: application
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/kubernetes-event-exporter-1.0.0.tgz
+    - https://openinfradev.github.io/helm-repo/kubernetes-event-exporter-1.0.0.tgz
     version: 1.0.0
   libvirt:
   - apiVersion: v1
@@ -448,7 +448,7 @@ entries:
     - https://libvirt.org/git/?p=libvirt.git;a=summary
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/libvirt-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/libvirt-0.1.0.tgz
     version: 0.1.0
   lma-addons:
   - apiVersion: v1
@@ -458,7 +458,7 @@ entries:
     digest: 662f7547dae41ddbdf2d3e9cd9e5e246643fb09d61e24d0ff7b773a69a0d4656
     name: lma-addons
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/lma-addons-1.5.0.tgz
+    - https://openinfradev.github.io/helm-repo/lma-addons-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v1
     appVersion: "1.0"
@@ -467,7 +467,7 @@ entries:
     digest: a4fd9f762f60a1fc716da96be2e79996108ca199147635f2c07e08619a3aa49d
     name: lma-addons
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/lma-addons-1.4.0.tgz
+    - https://openinfradev.github.io/helm-repo/lma-addons-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v1
     appVersion: "1.0"
@@ -476,7 +476,7 @@ entries:
     digest: 90d85a15da38d0277053d953e1597bab2d84e4e3d97ab1fe8aa9f6c95173dda3
     name: lma-addons
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/lma-addons-1.3.0.tgz
+    - https://openinfradev.github.io/helm-repo/lma-addons-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
     appVersion: "1.0"
@@ -485,7 +485,7 @@ entries:
     digest: 42f77dc70d6959e76cf9e97e2bb753e223634abfd8274f3f5603f0a912dafbd1
     name: lma-addons
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/lma-addons-1.2.0.tgz
+    - https://openinfradev.github.io/helm-repo/lma-addons-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v1
     appVersion: "1.0"
@@ -494,7 +494,7 @@ entries:
     digest: e4a15b9bc050c4442a13b398858d536b464b5f8a41c98e0b1fcf86468802d06c
     name: lma-addons
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/lma-addons-1.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/lma-addons-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
@@ -503,7 +503,7 @@ entries:
     digest: 38ce8c82a7ad5266a88db40b659cbf82efceea0f904d85f19e5f49c721de960d
     name: lma-addons
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/lma-addons-1.0.9.tgz
+    - https://openinfradev.github.io/helm-repo/lma-addons-1.0.9.tgz
     version: 1.0.9
   - apiVersion: v1
     appVersion: "1.0"
@@ -512,7 +512,7 @@ entries:
     digest: acbf3270d67a0ea225f518828ca53285c7acc65a223510516a45b3a51ed7a1b6
     name: lma-addons
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/lma-addons-1.0.8.tgz
+    - https://openinfradev.github.io/helm-repo/lma-addons-1.0.8.tgz
     version: 1.0.8
   - apiVersion: v1
     appVersion: "1.0"
@@ -521,7 +521,7 @@ entries:
     digest: 8001b4104eedeaf57fb2bcdcfbcef059a696658fcb9cb01c4023fdd41bed73b3
     name: lma-addons
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/lma-addons-1.0.7.tgz
+    - https://openinfradev.github.io/helm-repo/lma-addons-1.0.7.tgz
     version: 1.0.7
   - apiVersion: v1
     appVersion: "1.0"
@@ -530,7 +530,7 @@ entries:
     digest: 162b06fb6fb36a695b013d5005437dc3d3d3e7e5824499a8929ceb67ce63a201
     name: lma-addons
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/lma-addons-1.0.6.tgz
+    - https://openinfradev.github.io/helm-repo/lma-addons-1.0.6.tgz
     version: 1.0.6
   mariadb:
   - apiVersion: v1
@@ -550,7 +550,7 @@ entries:
     - https://github.com/MariaDB/server
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/mariadb-0.1.1.tgz
+    - https://openinfradev.github.io/helm-repo/mariadb-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
     created: "2021-04-11T02:44:48.452752066Z"
@@ -569,7 +569,7 @@ entries:
     - https://github.com/MariaDB/server
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/mariadb-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/mariadb-0.1.0.tgz
     version: 0.1.0
   memcached:
   - apiVersion: v1
@@ -582,7 +582,7 @@ entries:
     digest: 3399b30ea77a0134bd504550793198109a3eae5bc5499902a1730a1c7d93b8e7
     name: memcached
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/memcached-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/memcached-0.1.0.tgz
     version: 0.1.0
   - apiVersion: v1
     created: "2021-04-11T02:44:48.46381424Z"
@@ -594,7 +594,7 @@ entries:
     digest: 501b657143383c42cb75e82556f568bdb362785a32c63d5b5488f533f3524021
     name: memcached
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/memcached-0.1.0-skt.tgz
+    - https://openinfradev.github.io/helm-repo/memcached-0.1.0-skt.tgz
     version: 0.1.0-skt
   neutron:
   - apiVersion: v1
@@ -614,7 +614,7 @@ entries:
     - https://opendev.org/openstack/neutron
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/neutron-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/neutron-0.1.0.tgz
     version: 0.1.0
   nova:
   - apiVersion: v1
@@ -634,7 +634,7 @@ entries:
     - https://opendev.org/openstack/nova
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/nova-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/nova-0.1.0.tgz
     version: 0.1.0
   openvswitch:
   - apiVersion: v1
@@ -654,7 +654,7 @@ entries:
     - https://github.com/openvswitch/ovs
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/openvswitch-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/openvswitch-0.1.0.tgz
     version: 0.1.0
   prometheus-openstack-exporter:
   - apiVersion: v1
@@ -673,7 +673,7 @@ entries:
     - https://opendev.org/openstack/openstack-helm-infra
     - https://github.com/rakesh-patnaik/prometheus-openstack-exporter
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/prometheus-openstack-exporter-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/prometheus-openstack-exporter-0.1.0.tgz
     version: 0.1.0
   prometheus-process-exporter:
   - apiVersion: v1
@@ -692,7 +692,7 @@ entries:
     - https://github.com/ncabatoff/process-exporter
     - https://opendev.org/openstack/openstack-helm-infra
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/prometheus-process-exporter-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/prometheus-process-exporter-0.1.0.tgz
     version: 0.1.0
   rabbitmq:
   - apiVersion: v1
@@ -705,7 +705,7 @@ entries:
     digest: 7c9172775312acb0b2ebe4f8741197ce57089eb22efca36c073b55ed609829dd
     name: rabbitmq
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/rabbitmq-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/rabbitmq-0.1.0.tgz
     version: 0.1.0
   rook-ceph:
   - apiVersion: v2
@@ -717,7 +717,7 @@ entries:
     sources:
     - https://github.com/rook/rook
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/rook-ceph-0.0.1.tgz
+    - https://openinfradev.github.io/helm-repo/rook-ceph-0.0.1.tgz
     version: 0.0.1
   rook-ceph-cluster:
   - apiVersion: v1
@@ -727,7 +727,7 @@ entries:
     digest: ce76250e083f60ac101a30657f611c0cdf6eff384384398408ca0c6a0b8977a1
     name: rook-ceph-cluster
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/rook-ceph-cluster-0.0.1.tgz
+    - https://openinfradev.github.io/helm-repo/rook-ceph-cluster-0.0.1.tgz
     version: 0.0.1
   sample-hpa-app:
   - apiVersion: v1
@@ -737,7 +737,7 @@ entries:
     digest: 3203cfba35ce8f9f09127ef64dbc08e598e30e0f10749fd33d81f7f915f87e08
     name: sample-hpa-app
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/sample-hpa-app-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/sample-hpa-app-0.1.0.tgz
     version: 0.1.0
   service-mesh-resource:
   - apiVersion: v2
@@ -748,7 +748,7 @@ entries:
     name: service-mesh-resource
     type: application
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/service-mesh-resource-0.2.0.tgz
+    - https://openinfradev.github.io/helm-repo/service-mesh-resource-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
@@ -758,7 +758,7 @@ entries:
     name: service-mesh-resource
     type: application
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/service-mesh-resource-0.1.9.tgz
+    - https://openinfradev.github.io/helm-repo/service-mesh-resource-0.1.9.tgz
     version: 0.1.9
   - apiVersion: v2
     appVersion: 1.16.0
@@ -768,7 +768,7 @@ entries:
     name: service-mesh-resource
     type: application
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/service-mesh-resource-0.1.8.tgz
+    - https://openinfradev.github.io/helm-repo/service-mesh-resource-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v2
     appVersion: 1.16.0
@@ -778,7 +778,7 @@ entries:
     name: service-mesh-resource
     type: application
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/service-mesh-resource-0.1.2.tgz
+    - https://openinfradev.github.io/helm-repo/service-mesh-resource-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
@@ -788,7 +788,7 @@ entries:
     name: service-mesh-resource
     type: application
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/service-mesh-resource-0.1.1.tgz
+    - https://openinfradev.github.io/helm-repo/service-mesh-resource-0.1.1.tgz
     version: 0.1.1
   site-mirror-registry:
   - apiVersion: v1
@@ -798,7 +798,7 @@ entries:
     digest: c5adf9274bfb1826d6ad236111e0f7f71acb445b9def549ff3036aaac035a7e6
     name: site-mirror-registry
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/site-mirror-registry-0.0.3.tgz
+    - https://openinfradev.github.io/helm-repo/site-mirror-registry-0.0.3.tgz
     version: 0.0.3
   sona:
   - apiVersion: v1
@@ -813,7 +813,7 @@ entries:
     home: https://wiki.onosproject.org/display/ONOS/SONA%3A+DC+Network+Virtualization
     name: sona
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/sona-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/sona-0.1.0.tgz
     version: 0.1.0
   taco-registry:
   - apiVersion: v1
@@ -823,7 +823,7 @@ entries:
     digest: 71ca5e7bb8477218c42a0e3410880a0dc588155f739810dcad410ea28108e7ec
     name: taco-registry
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/taco-registry-1.0.6.tgz
+    - https://openinfradev.github.io/helm-repo/taco-registry-1.0.6.tgz
     version: 1.0.6
   taco-watcher:
   - apiVersion: v1
@@ -833,7 +833,7 @@ entries:
     digest: c0748fcc2e385918b9329d5902fb458dc894b37fe29808628e8d509510e4bc19
     name: taco-watcher
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/taco-watcher-0.1.0.tgz
+    - https://openinfradev.github.io/helm-repo/taco-watcher-0.1.0.tgz
     version: 0.1.0
   thanos-config:
   - apiVersion: v1
@@ -843,6 +843,6 @@ entries:
     digest: 8dfe6b2b8b34191c1b7e6534bbe60531cbdd5f4278b6143f3b6014a402cb9d27
     name: thanos-config
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/thanos-config-0.1.3.tgz
+    - https://openinfradev.github.io/helm-repo/thanos-config-0.1.3.tgz
     version: 0.1.3
 generated: "2021-05-13T02:52:01.062639395Z"

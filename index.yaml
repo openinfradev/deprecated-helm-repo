@@ -354,9 +354,9 @@ entries:
     version: 0.1.0
   istio-operator:
   - apiVersion: v1
-    created: "2021-05-13T08:33:09.346808717Z"
+    created: "2021-05-14T02:53:51.591451811Z"
     description: Helm chart for deploying Istio operator
-    digest: 7de89bca7e755a6ea4799107c0ec2bc0ff8d363f4f01cd42a3520b09b0fd009f
+    digest: 05343ad57cd31afdb44d7298f41a1e2559ca9e9ee80198f9b410fc0b38190658
     icon: https://istio.io/latest/favicons/android-192x192.png
     keywords:
     - istio
@@ -709,9 +709,9 @@ entries:
     version: 0.1.0
   rook-ceph:
   - apiVersion: v2
-    created: "2021-05-13T08:33:09.350468734Z"
+    created: "2021-05-14T02:53:51.594454846Z"
     description: File, Block, and Object Storage Services for your Cloud-Native Environment
-    digest: 196fb1e68235f96576f22830c8ec0d7c11ea6bab5c8d00611b60a7c98a3a19cf
+    digest: 7909cac6de02cf7022cf6ec2bb6f3d899839687fa98a64d2d7448f6562e11877
     icon: https://rook.io/images/rook-logo.svg
     name: rook-ceph
     sources:
@@ -845,4 +845,4 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/thanos-config-0.1.3.tgz
     version: 0.1.3
-generated: "2021-05-13T08:33:09.346065573Z"
+generated: "2021-05-14T02:53:51.590900968Z"

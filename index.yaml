@@ -841,9 +841,9 @@ entries:
   servicemesh-grafana-dashboard:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-06-28T02:22:19.769531773Z"
+    created: "2021-06-28T05:03:09.206643485Z"
     description: A chart for the additional grafana dashboard related to service mesh
-    digest: 3a26b2fd50a0447ba8e964f8a2585676c3ccadbb36751a884c295326f189e93e
+    digest: 215d16ccc348ea89a5553d0402b65394418a91d71d1beb8f647308e63a00bf2d
     name: servicemesh-grafana-dashboard
     type: application
     urls:
@@ -852,9 +852,9 @@ entries:
   servicemesh-istio-resource:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-06-28T02:22:19.770198924Z"
+    created: "2021-06-28T05:03:09.207628848Z"
     description: A chart for the additional k8s resources related to service mesh
-    digest: e0ff18213ee5253813a8a27f8f0bd623eb58d0e74daf79df69f322bea0e30282
+    digest: 7e178e84f49d2800551f2ab7c3c1a2055c63bfbd3b3ec5f16f508d957496971c
     name: servicemesh-istio-resource
     type: application
     urls:
@@ -863,9 +863,9 @@ entries:
   servicemesh-jaeger-resource:
   - apiVersion: v2
     appVersion: 1.22.1
-    created: "2021-06-28T02:22:19.770570952Z"
+    created: "2021-06-28T05:03:09.208427038Z"
     description: A chart for jaeger resource related to service mesh
-    digest: 659b26a8b6fd335af8e90fe5d0514436e9e7d087e0ff7e5321ae05dff8ada858
+    digest: 13e82333b0226ed7e4fd2118ca426efbe12848ca6a34788d2ebbe1c3c9d17c8c
     name: servicemesh-jaeger-resource
     type: application
     urls:
@@ -874,9 +874,9 @@ entries:
   servicemesh-kiali-resource:
   - apiVersion: v2
     appVersion: v1.35.0
-    created: "2021-06-28T02:22:19.770962682Z"
+    created: "2021-06-28T05:03:09.208900172Z"
     description: A chart for kiali resource related to service mesh
-    digest: 190b72a4c7540fac70fa9c08f36005aff5d69d560043a06246a094fe33ec0aee
+    digest: 005089fb35c06e199bf32b4f5bfab50da7a9cfb860cd41fe3caf94c959accac3
     name: servicemesh-kiali-resource
     type: application
     urls:
@@ -885,9 +885,9 @@ entries:
   servicemesh-prometheusmonitor:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-06-28T02:22:19.771182399Z"
+    created: "2021-06-28T05:03:09.209171234Z"
     description: A chart for the additional servicemonitor related to service mesh
-    digest: 0646d14e19634769eec3e522ffd7356886487c02bf36f27496a26825457455f9
+    digest: 166c3d25d601aac965723790c361fda5f29e9764df355629f7460644ad3ad705
     name: servicemesh-prometheusmonitor
     type: application
     urls:
@@ -896,9 +896,9 @@ entries:
   servicemesh-prometheusrule:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-06-28T02:22:19.771404316Z"
+    created: "2021-06-28T05:03:09.209424299Z"
     description: A chart for the additional prometheusrule related to service mesh
-    digest: e866762e8de2aa9f78d161d18b6a90a058122930305f597be1ff2e0e39e2d600
+    digest: 37c4dff139da0c73f33b3f5d67b33b3754dcf3b8fdfa21c5db6729408d22850d
     name: servicemesh-prometheusrule
     type: application
     urls:
@@ -959,4 +959,4 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/thanos-config-0.1.3.tgz
     version: 0.1.3
-generated: "2021-06-28T02:32:16.954375895Z"
+generated: "2021-06-28T05:03:09.204412296Z"

@@ -386,6 +386,24 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/jaeger-operator-2.21.2.tgz
     version: 2.21.2
+  - apiVersion: v1
+    appVersion: 1.21.2
+    created: "2021-06-30T02:34:15.805217571Z"
+    description: jaeger-operator Helm chart for Kubernetes
+    digest: a464b52c923aa43607147d0b46a2eb38e657c477fb25d075fd97e63095a89f2a
+    home: https://www.jaegertracing.io/
+    icon: https://www.jaegertracing.io/img/jaeger-icon-reverse-color.svg
+    maintainers:
+    - email: ctadeu@gmail.com
+      name: cpanato
+    - email: batazor111@gmail.com
+      name: batazor
+    name: jaeger-operator
+    sources:
+    - https://github.com/jaegertracing/jaeger-operator
+    urls:
+    - https://openinfradev.github.io/helm-repo/jaeger-operator-2.20.0.tgz
+    version: 2.20.0
   keycloak:
   - apiVersion: v1
     appVersion: 10.0.0
@@ -841,9 +859,9 @@ entries:
   servicemesh-grafana-dashboard:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-06-29T23:24:42.599763105Z"
+    created: "2021-06-30T02:34:15.806430887Z"
     description: A chart for the additional grafana dashboard related to service mesh
-    digest: 5ecb0afad40045a908931d38c9190d3cf446bfad49f310fd48de9d60424a3beb
+    digest: 1da8cbccc7b2834cc77590b03258b450b4bc3b8465e5246d8bd773ec65bd8f56
     name: servicemesh-grafana-dashboard
     type: application
     urls:
@@ -852,9 +870,9 @@ entries:
   servicemesh-istio-resource:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-06-29T23:24:42.600868616Z"
+    created: "2021-06-30T02:34:15.807563901Z"
     description: A chart for the additional k8s resources related to service mesh
-    digest: 579acfe1846239bc84d9f57adb4bb36cf4f960528a13dc2f7dd4c671924afda2
+    digest: 74fb850f3a037cb9dba45b5a520401758592a358a513861cd44400c1494d1163
     name: servicemesh-istio-resource
     type: application
     urls:
@@ -863,9 +881,9 @@ entries:
   servicemesh-jaeger-resource:
   - apiVersion: v2
     appVersion: 1.22.1
-    created: "2021-06-29T23:24:42.601994926Z"
+    created: "2021-06-30T02:34:15.807910206Z"
     description: A chart for jaeger resource related to service mesh
-    digest: cbc49d69195c04f64c325c333391feaa1b13f9372f1f8f57c13ee651203ab59c
+    digest: 4e37fe8d2db499a36596db5e674df4d38521311face224d12d74a0780ce8ffb1
     name: servicemesh-jaeger-resource
     type: application
     urls:
@@ -884,9 +902,9 @@ entries:
     version: 1.35.0
   - apiVersion: v2
     appVersion: v1.34.0
-    created: "2021-06-29T23:24:42.602796434Z"
+    created: "2021-06-30T02:34:15.808358012Z"
     description: A chart for kiali resource related to service mesh
-    digest: 66d543312cd01e8b1de6536781fe30e8ebcdd1988c9f6d121c495995585d807f
+    digest: 5703c6de41d7778e8fe51952c82bc97fb2c28b6d16af178d79c8939edca327ac
     name: servicemesh-kiali-resource
     type: application
     urls:
@@ -895,9 +913,9 @@ entries:
   servicemesh-prometheusmonitor:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-06-29T23:24:42.603024036Z"
+    created: "2021-06-30T02:34:15.808551014Z"
     description: A chart for the additional servicemonitor related to service mesh
-    digest: 7660034b9e532a75c9397a531ff37f2935b71f356c309a9b8f52089917f951f0
+    digest: d4aa57b6169e7cfe42b19ffca6e949280cb0b8c0e271eddb78e83cc2f8c3adb2
     name: servicemesh-prometheusmonitor
     type: application
     urls:
@@ -906,9 +924,9 @@ entries:
   servicemesh-prometheusrule:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-06-29T23:24:42.603205638Z"
+    created: "2021-06-30T02:34:15.808730617Z"
     description: A chart for the additional prometheusrule related to service mesh
-    digest: 29903059e67fcb00dc23c6a4e042002b34904f367fb86d7114dd78be57eec091
+    digest: 33ea084089a85bc5f055b4baf61ce33522f58eb39953f878df039ac5885fa464
     name: servicemesh-prometheusrule
     type: application
     urls:
@@ -969,4 +987,4 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/thanos-config-0.1.3.tgz
     version: 0.1.3
-generated: "2021-06-30T02:32:08.15494219Z"
+generated: "2021-06-30T02:34:15.804454861Z"

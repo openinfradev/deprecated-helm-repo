@@ -99,7 +99,8 @@ entries:
   - apiVersion: v2
     appVersion: 0.0.1
     created: "2021-08-23T11:59:27.774947551Z"
-    description: A chart to install Kubernetes cluster using Cluster API Provider AWS
+    description: A chart to install Kubernetes cluster using Cluster API Provider
+      AWS
     digest: 902d705e7c2d84270848bc4611d9a204e25c20fbb094acf8888c1ac154aae45c
     name: cluster-api-aws
     type: application
@@ -109,7 +110,8 @@ entries:
   - apiVersion: v2
     appVersion: 0.0.1
     created: "2021-08-23T11:59:27.773144085Z"
-    description: A chart to install Kubernetes cluster using Cluster API Provider AWS
+    description: A chart to install Kubernetes cluster using Cluster API Provider
+      AWS
     digest: 08a15e03441746070258464a465993706b0bdcca42c3c2434f2898d2c59b38e5
     name: cluster-api-aws
     type: application
@@ -119,7 +121,8 @@ entries:
   - apiVersion: v2
     appVersion: 0.0.1
     created: "2021-08-23T11:59:27.771836106Z"
-    description: A chart to install Kubernetes cluster using Cluster API Provider AWS
+    description: A chart to install Kubernetes cluster using Cluster API Provider
+      AWS
     digest: 02f7324fb2d2fe9a3d30945575990e697ca3e8d048085cda86ed5324cecf7afa
     name: cluster-api-aws
     type: application
@@ -129,7 +132,8 @@ entries:
   - apiVersion: v2
     appVersion: 0.0.1
     created: "2021-08-23T11:59:27.770518011Z"
-    description: A chart to install Kubernetes cluster using Cluster API Provider AWS
+    description: A chart to install Kubernetes cluster using Cluster API Provider
+      AWS
     digest: 76a5fa3777ec929bded73cdec63906a5d98b89c9a8aa155db5271325a010fc42
     name: cluster-api-aws
     type: application
@@ -144,7 +148,8 @@ entries:
     - name: helm-toolkit
       repository: https://openinfradev.github.io/helm-repo
       version: '>= 0.1.0'
-    description: Install Cluster API Provider OpenStack manifests to generate a fully working Kubernetes cluster
+    description: Install Cluster API Provider OpenStack manifests to generate a fully
+      working Kubernetes cluster
     digest: 4eb121f756937ccd282e1f2f3b00819eed3f06ddfdf5bf3582082afe1783bc1b
     keywords:
     - clusterapi
@@ -248,7 +253,8 @@ entries:
   - apiVersion: v1
     appVersion: 1.4.5-skt
     created: "2021-08-23T11:59:27.811235017Z"
-    description: Provide easy log collecting definition for kubernetes pods and their hosts, and management of fluentbit
+    description: Provide easy log collecting definition for kubernetes pods and their
+      hosts, and management of fluentbit
     digest: 713ff56b951d68851b3463259ab746d502cd6413bd591ccaec92cea58b54ec3a
     icon: https://dashboard.snapcraft.io/site_media/appmedia/2020/02/logo-square.png
     keywords:
@@ -267,7 +273,8 @@ entries:
   - apiVersion: v1
     appVersion: 1.4.5-skt
     created: "2021-08-23T11:59:27.816679097Z"
-    description: Provide easy log collecting definition for kubernetes pods and their hosts, and management of fluentbit
+    description: Provide easy log collecting definition for kubernetes pods and their
+      hosts, and management of fluentbit
     digest: 42606c57f1bf464d41578e58dc0236e535039f47284202d16fa0aaf2cd041c46
     icon: https://dashboard.snapcraft.io/site_media/appmedia/2020/02/logo-square.png
     keywords:
@@ -401,9 +408,9 @@ entries:
     version: 0.1.0
   istio-operator:
   - apiVersion: v1
-    created: "2021-08-23T11:59:27.903976202Z"
+    created: "2021-08-24T02:12:52.065656678Z"
     description: Helm chart for deploying Istio operator
-    digest: 04d21feec76651571a6113afea8a9d3ff7e02a408adc7d2a3fdb1601e7e61d39
+    digest: 642528ba5679a984b1d95ec0acd447f7914bbb64aa6811fd3c927d89fbeb8277
     icon: https://istio.io/latest/favicons/android-192x192.png
     keywords:
     - istio
@@ -460,7 +467,8 @@ entries:
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 8.9.5
-    description: Open Source Identity and Access Management For Modern Applications and Services
+    description: Open Source Identity and Access Management For Modern Applications
+      and Services
     digest: f47532c2dcc833e7da998c0dacafcdcbaf2bafc586791c1e403c8c9cfc088f09
     home: https://www.keycloak.org/
     icon: https://www.keycloak.org/resources/images/keycloak_logo_480x108.png
@@ -851,9 +859,9 @@ entries:
     version: 0.1.0
   rook-ceph:
   - apiVersion: v2
-    created: "2021-08-23T11:59:28.241524072Z"
+    created: "2021-08-24T02:12:52.07028068Z"
     description: File, Block, and Object Storage Services for your Cloud-Native Environment
-    digest: eebbcb0d10a5dbc76db07059d1fc8191a688d81ae883b993e5b21b84b834d759
+    digest: 64ec262e40b9c8c4fddff3e2347164cae1fe44d1b2e901a947a9820ba8987b07
     icon: https://rook.io/images/rook-logo.svg
     name: rook-ceph
     sources:
@@ -1151,4 +1159,4 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/tks-info-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-23T11:59:27.705785432Z"
+generated: "2021-08-24T02:12:52.064978048Z"

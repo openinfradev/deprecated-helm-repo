@@ -419,9 +419,9 @@ entries:
     version: 0.1.0
   istio-operator:
   - apiVersion: v1
-    created: "2021-08-29T02:13:42.520266731Z"
+    created: "2021-08-30T02:13:08.264779918Z"
     description: Helm chart for deploying Istio operator
-    digest: c9383db57d9aa1a8704ee70d04c47c2108e653a774c330c4c3d182cd7fcb9ad6
+    digest: c1a40b40637866b6acda3d27bf3da7000dc8f4ff9231e38e52cf0ad79fbfe1a1
     icon: https://istio.io/latest/favicons/android-192x192.png
     keywords:
     - istio
@@ -870,9 +870,9 @@ entries:
     version: 0.1.0
   rook-ceph:
   - apiVersion: v2
-    created: "2021-08-29T02:13:42.526171496Z"
+    created: "2021-08-30T02:13:08.269099044Z"
     description: File, Block, and Object Storage Services for your Cloud-Native Environment
-    digest: 5c7cf72d23244cf73a4957c5cc2316cc41b651e75e50e66a021e5f9e4e6c9b25
+    digest: f0e355537d907da3ba2f0f026e5847507ea0bbafd938761152d56e6d774b9098
     icon: https://rook.io/images/rook-logo.svg
     name: rook-ceph
     sources:
@@ -1170,4 +1170,4 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/tks-info-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-29T02:13:42.519623702Z"
+generated: "2021-08-30T02:13:08.263658959Z"

@@ -574,9 +574,9 @@ entries:
   lma-addons:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-09-16T06:09:44.175573706Z"
+    created: "2021-09-17T08:52:46.77511833Z"
     description: Kubernetes Resources for TACO Project
-    digest: 68a62d38299f47260950a55eacd707cb4d9ad93ee2e10245e8ee530f0d022242
+    digest: 2b85b92c9750ec3831eeecbb4941397d949bb982647817e5290401c33d314814
     name: lma-addons
     urls:
     - https://openinfradev.github.io/helm-repo/lma-addons-1.6.0.tgz
@@ -938,9 +938,9 @@ entries:
   service-mesh-resource:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-09-16T06:09:44.177046733Z"
+    created: "2021-09-17T08:52:46.775464135Z"
     description: A chart for the additional k8s resources related to service mesh
-    digest: b55efd910f88bd097556623a6711f8885d0483cdc4de5f1ac1d1703af37b4b66
+    digest: dd3329980edd29d99e9d9589844e79eaf9a8e927cb00422d627cc897be0f5781
     name: service-mesh-resource
     type: application
     urls:
@@ -1009,9 +1009,9 @@ entries:
   servicemesh-grafana-dashboard:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-09-16T06:09:44.178400057Z"
+    created: "2021-09-17T08:52:46.776560348Z"
     description: A chart for the additional grafana dashboard related to service mesh
-    digest: f705551653678c7578dc0bd7696d3012e4148cd7f18031754f93f2d4c0213e52
+    digest: e8eb92a5bf8c6cafeccf7e8d1c144aae92a5a9d64d70af7027f6f2b4ad7623e6
     name: servicemesh-grafana-dashboard
     type: application
     urls:
@@ -1020,15 +1020,25 @@ entries:
   servicemesh-istio-resource:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-09-16T06:09:44.179195471Z"
+    created: "2021-09-17T08:52:46.777155656Z"
     description: A chart for the additional k8s resources related to service mesh
-    digest: a2a944bfd287c86b7ad8cb33f9197b5459fd44eb8c959fa0dc87901ec9a19304
+    digest: f45c5e67144436ceb653d7929b8b5d4b0f0675e31daaa2582858e17b603a08e9
     name: servicemesh-istio-resource
     type: application
     urls:
     - https://openinfradev.github.io/helm-repo/servicemesh-istio-resource-1.7.0.tgz
     version: 1.7.0
   servicemesh-jaeger-resource:
+  - apiVersion: v2
+    appVersion: 1.22.1
+    created: "2021-09-17T08:52:46.77751426Z"
+    description: A chart for jaeger resource related to service mesh
+    digest: 559cdcb2605c39c599b229b01e4ec97ba92f1347b626c36882eed1836777de2c
+    name: servicemesh-jaeger-resource
+    type: application
+    urls:
+    - https://openinfradev.github.io/helm-repo/servicemesh-jaeger-resource-2.21.3.tgz
+    version: 2.21.3
   - apiVersion: v2
     appVersion: 1.22.1
     created: "2021-09-16T06:09:44.17970148Z"
@@ -1052,6 +1062,16 @@ entries:
     version: 1.35.0
   - apiVersion: v2
     appVersion: v1.34.0
+    created: "2021-09-17T08:52:46.777978966Z"
+    description: A chart for kiali resource related to service mesh
+    digest: d080a24a4fe256c39726c444441e4da61032a91eda890f81fc330f3da055bf8f
+    name: servicemesh-kiali-resource
+    type: application
+    urls:
+    - https://openinfradev.github.io/helm-repo/servicemesh-kiali-resource-1.34.1.tgz
+    version: 1.34.1
+  - apiVersion: v2
+    appVersion: v1.34.0
     created: "2021-09-16T06:09:44.180621797Z"
     description: A chart for kiali resource related to service mesh
     digest: f407aaa615a363cf1f944457f8b3b07f8b71be7d4d8d06001af1a48cd2638200
@@ -1063,9 +1083,9 @@ entries:
   servicemesh-prometheusmonitor:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-09-16T06:09:44.180842601Z"
+    created: "2021-09-17T08:52:46.778174669Z"
     description: A chart for the additional servicemonitor related to service mesh
-    digest: baed81e09bc07432eff37bd294c62afde36278f2467dd99c8e6e268211994fa7
+    digest: 01f4948edbc31cfae86379ce0bb9da1a82cda393cd79f0a0c83c8ecff79161f3
     name: servicemesh-prometheusmonitor
     type: application
     urls:
@@ -1074,9 +1094,9 @@ entries:
   servicemesh-prometheusrule:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-09-16T06:09:44.181023504Z"
+    created: "2021-09-17T08:52:46.778885478Z"
     description: A chart for the additional prometheusrule related to service mesh
-    digest: 3e0dd1ce091cd283a594d057cc90eba706b2f06337ce6878c78c0673b8e1c6d7
+    digest: 6231c7ba0d351c11819241c9204cd536aca22d8471f070dc4c24b715d657edfd
     name: servicemesh-prometheusrule
     type: application
     urls:
@@ -1170,4 +1190,4 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/tks-info-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-16T06:09:44.146550184Z"
+generated: "2021-09-17T08:52:46.767567635Z"

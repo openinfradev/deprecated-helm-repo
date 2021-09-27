@@ -99,7 +99,8 @@ entries:
   - apiVersion: v2
     appVersion: 0.0.1
     created: "2021-09-27T05:31:24.4512434Z"
-    description: A chart to install Kubernetes cluster using Cluster API Provider AWS
+    description: A chart to install Kubernetes cluster using Cluster API Provider
+      AWS
     digest: 4289058219bdd78805322a702817677dbe11217e47819d646f42ef345f10b750
     name: cluster-api-aws
     type: application
@@ -109,7 +110,8 @@ entries:
   - apiVersion: v2
     appVersion: 0.0.1
     created: "2021-09-27T05:31:24.447287714Z"
-    description: A chart to install Kubernetes cluster using Cluster API Provider AWS
+    description: A chart to install Kubernetes cluster using Cluster API Provider
+      AWS
     digest: 06d2831357fb124341684651c4575ddf7af30d1b29e0061fe74d237ea98e314c
     name: cluster-api-aws
     type: application
@@ -119,7 +121,8 @@ entries:
   - apiVersion: v2
     appVersion: 0.0.1
     created: "2021-09-27T05:31:24.445537276Z"
-    description: A chart to install Kubernetes cluster using Cluster API Provider AWS
+    description: A chart to install Kubernetes cluster using Cluster API Provider
+      AWS
     digest: 21373c6ca0bc7bcc1970793433a1fb74c8338a163d66bdca94f390a524175896
     name: cluster-api-aws
     type: application
@@ -129,7 +132,8 @@ entries:
   - apiVersion: v2
     appVersion: 0.0.1
     created: "2021-09-27T05:31:24.443641498Z"
-    description: A chart to install Kubernetes cluster using Cluster API Provider AWS
+    description: A chart to install Kubernetes cluster using Cluster API Provider
+      AWS
     digest: 7e0c8e1297ad005ad9a0f2e75e38de564105e0406ccaffd1ed1b1060f5dd2cd5
     name: cluster-api-aws
     type: application
@@ -139,7 +143,8 @@ entries:
   - apiVersion: v2
     appVersion: 0.0.1
     created: "2021-09-27T05:31:24.442135579Z"
-    description: A chart to install Kubernetes cluster using Cluster API Provider AWS
+    description: A chart to install Kubernetes cluster using Cluster API Provider
+      AWS
     digest: 02f7324fb2d2fe9a3d30945575990e697ca3e8d048085cda86ed5324cecf7afa
     name: cluster-api-aws
     type: application
@@ -149,7 +154,8 @@ entries:
   - apiVersion: v2
     appVersion: 0.0.1
     created: "2021-09-27T05:31:24.440767953Z"
-    description: A chart to install Kubernetes cluster using Cluster API Provider AWS
+    description: A chart to install Kubernetes cluster using Cluster API Provider
+      AWS
     digest: 76a5fa3777ec929bded73cdec63906a5d98b89c9a8aa155db5271325a010fc42
     name: cluster-api-aws
     type: application
@@ -164,7 +170,8 @@ entries:
     - name: helm-toolkit
       repository: https://openinfradev.github.io/helm-repo
       version: '>= 0.1.0'
-    description: Install Cluster API Provider OpenStack manifests to generate a fully working Kubernetes cluster
+    description: Install Cluster API Provider OpenStack manifests to generate a fully
+      working Kubernetes cluster
     digest: 18f1dcdf4d93eeb75e51b3bbfd6ce103dc5c24bb2b231a82e7e6be43662dd399
     keywords:
     - clusterapi
@@ -268,7 +275,8 @@ entries:
   - apiVersion: v1
     appVersion: 1.4.5-skt
     created: "2021-09-27T05:31:24.482877587Z"
-    description: Provide easy log collecting definition for kubernetes pods and their hosts, and management of fluentbit
+    description: Provide easy log collecting definition for kubernetes pods and their
+      hosts, and management of fluentbit
     digest: 932b4d22644e041816433b76fcb52793f3d23eb985f174c7ac4903a41c3633b5
     icon: https://dashboard.snapcraft.io/site_media/appmedia/2020/02/logo-square.png
     keywords:
@@ -287,7 +295,8 @@ entries:
   - apiVersion: v1
     appVersion: 1.4.5-skt
     created: "2021-09-27T05:31:24.489442047Z"
-    description: Provide easy log collecting definition for kubernetes pods and their hosts, and management of fluentbit
+    description: Provide easy log collecting definition for kubernetes pods and their
+      hosts, and management of fluentbit
     digest: 42606c57f1bf464d41578e58dc0236e535039f47284202d16fa0aaf2cd041c46
     icon: https://dashboard.snapcraft.io/site_media/appmedia/2020/02/logo-square.png
     keywords:
@@ -480,7 +489,8 @@ entries:
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 8.9.5
-    description: Open Source Identity and Access Management For Modern Applications and Services
+    description: Open Source Identity and Access Management For Modern Applications
+      and Services
     digest: 09c8af8132b34293f591dbc8558a728df5d9e47ebe650b1ae7832d7a9bb59b1a
     home: https://www.keycloak.org/
     icon: https://www.keycloak.org/resources/images/keycloak_logo_480x108.png
@@ -575,9 +585,9 @@ entries:
   lma-addons:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-09-27T05:31:24.772936294Z"
+    created: "2021-09-27T09:38:57.11786919Z"
     description: Kubernetes Resources for TACO Project
-    digest: 7df999b4a5c6194ec19a76fbd9d0c5a550dbe92a21a9266e108aafb955c51ab4
+    digest: 82b7e6273b2c02a1ac74edb1abdbcc1e1b0586c6c31b1a1696a2a5d9e0d0aa57
     name: lma-addons
     urls:
     - https://openinfradev.github.io/helm-repo/lma-addons-1.6.0.tgz
@@ -939,9 +949,9 @@ entries:
   service-mesh-resource:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-09-27T05:31:24.922700191Z"
+    created: "2021-09-27T09:38:57.1182693Z"
     description: A chart for the additional k8s resources related to service mesh
-    digest: 0a96e945fb0a8cbe3c374e01964288b671a2f0a3f3a0306a3888aaa3fe7628fa
+    digest: 8afc0b6b30b38ae5f703f05bfc0ebdde3cc2f461098e2567f462c5300b4e3754
     name: service-mesh-resource
     type: application
     urls:
@@ -1010,9 +1020,9 @@ entries:
   servicemesh-grafana-dashboard:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-09-27T05:31:24.925146128Z"
+    created: "2021-09-27T09:38:57.119580031Z"
     description: A chart for the additional grafana dashboard related to service mesh
-    digest: 54e9b55e7a47554680cb6a3ac11c0f585f3641c5b4108e53fd1832f2846b93f3
+    digest: 1ab389d51990e1dd95d046689c8d93c41747136a07816b5e270ac9e0e420d0be
     name: servicemesh-grafana-dashboard
     type: application
     urls:
@@ -1021,9 +1031,9 @@ entries:
   servicemesh-istio-resource:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-09-27T05:31:24.926554989Z"
+    created: "2021-09-27T09:38:57.12034865Z"
     description: A chart for the additional k8s resources related to service mesh
-    digest: 95481135ad66655c7e80b45652a634f4e2ced7d24c863809e11678a64624aaff
+    digest: 6f5b81f0764a996eb9e0f6aa8075c357f9cef536035bce1053fe6c7ca25b1425
     name: servicemesh-istio-resource
     type: application
     urls:
@@ -1032,9 +1042,9 @@ entries:
   servicemesh-jaeger-resource:
   - apiVersion: v2
     appVersion: 1.22.1
-    created: "2021-09-27T05:31:24.928687893Z"
+    created: "2021-09-27T09:38:57.12079126Z"
     description: A chart for jaeger resource related to service mesh
-    digest: 559cdcb2605c39c599b229b01e4ec97ba92f1347b626c36882eed1836777de2c
+    digest: eb830ff9320f29b02c08c4b5d0c796803a9144667d8a607b99b1ed543a23095e
     name: servicemesh-jaeger-resource
     type: application
     urls:
@@ -1063,9 +1073,9 @@ entries:
     version: 1.35.0
   - apiVersion: v2
     appVersion: v1.34.0
-    created: "2021-09-27T05:31:24.933181492Z"
+    created: "2021-09-27T09:38:57.121391475Z"
     description: A chart for kiali resource related to service mesh
-    digest: d080a24a4fe256c39726c444441e4da61032a91eda890f81fc330f3da055bf8f
+    digest: 14717313d096e354a04e92fe25b6c8041984c00ff84f78d5361c08f21daab953
     name: servicemesh-kiali-resource
     type: application
     urls:
@@ -1084,9 +1094,9 @@ entries:
   servicemesh-prometheusmonitor:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-09-27T05:31:24.935956454Z"
+    created: "2021-09-27T09:38:57.121642681Z"
     description: A chart for the additional servicemonitor related to service mesh
-    digest: 25bdb5a5593baff27ab3633715bb0350ce16dc833aabb65a85efed6858ce3ed5
+    digest: 5052977399388a2d107e896b967fff72ed4083ad3fec2f164ba74ef87100637f
     name: servicemesh-prometheusmonitor
     type: application
     urls:
@@ -1095,9 +1105,9 @@ entries:
   servicemesh-prometheusrule:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-09-27T05:31:24.93686111Z"
+    created: "2021-09-27T09:38:57.121854586Z"
     description: A chart for the additional prometheusrule related to service mesh
-    digest: a8056867a266035edc381fc1593af7e9e294e77f614cf244168e6579b0cb5aad
+    digest: 9f48cf86ad525117e7573a66222fc29dd79b2a88325099b94b1158eb5af0b8a8
     name: servicemesh-prometheusrule
     type: application
     urls:
@@ -1191,4 +1201,4 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/tks-info-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-27T05:31:24.380326913Z"
+generated: "2021-09-27T09:38:57.10907978Z"

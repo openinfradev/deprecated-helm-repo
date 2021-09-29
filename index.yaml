@@ -585,9 +585,9 @@ entries:
   lma-addons:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-09-29T10:45:27.632271787Z"
+    created: "2021-09-29T10:55:29.711353645Z"
     description: Kubernetes Resources for TACO Project
-    digest: 02e6394b3835e8c775db9c776ecfa202500c6a11b93bb11f2a88356398f9c975
+    digest: 0fb684d7fc9b65291e78fb2ad3d46eb54f7d013357e156d7462818ff9dadc507
     name: lma-addons
     urls:
     - https://openinfradev.github.io/helm-repo/lma-addons-1.6.0.tgz
@@ -949,9 +949,9 @@ entries:
   service-mesh-resource:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-09-29T10:45:27.632600987Z"
+    created: "2021-09-29T10:55:29.711694547Z"
     description: A chart for the additional k8s resources related to service mesh
-    digest: 74b261f8842fb20db4df2e5c548d2a366b72e8f49648bdb609885c100eafb76e
+    digest: e16607383084b1636017cd70a925dbf02c666dae7cc29c406db4346ab77aa204
     name: service-mesh-resource
     type: application
     urls:
@@ -1020,9 +1020,9 @@ entries:
   servicemesh-grafana-dashboard:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-09-29T10:45:27.633639887Z"
+    created: "2021-09-29T10:55:29.713171456Z"
     description: A chart for the additional grafana dashboard related to service mesh
-    digest: 9684c91b98584e4e4fcf4f4b3a1f8ff4c91a02920d8e486588e358dae3daa93c
+    digest: 111889c0445a3bf21e854bb5830fa1215800e7b852b73baed8c6e43e7ccd771e
     name: servicemesh-grafana-dashboard
     type: application
     urls:
@@ -1031,9 +1031,9 @@ entries:
   servicemesh-istio-resource:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-09-29T10:45:27.635004587Z"
+    created: "2021-09-29T10:55:29.714258662Z"
     description: A chart for the additional k8s resources related to service mesh
-    digest: 43fc26aaf21a65a4edb4e10db03a3d0dc23f1f3eadf55232ba21c56aed9c2b09
+    digest: dd4132969e269a755b6cc968ef6815734e6d2f2cfd80297f87a7f5f4ea7839b8
     name: servicemesh-istio-resource
     type: application
     urls:
@@ -1052,9 +1052,9 @@ entries:
     version: 2.21.3
   - apiVersion: v2
     appVersion: 1.22.1
-    created: "2021-09-29T10:45:27.635596787Z"
+    created: "2021-09-29T10:55:29.714748265Z"
     description: A chart for jaeger resource related to service mesh
-    digest: 79d7f4191ec9f2b2c1a160a182ed21a656e6481b10723ca9dc5485bfcd898074
+    digest: 417c2869bd16420f55b1e6c95d2f4c15d3c18bfe1454cf52aa20d7c8da550106
     name: servicemesh-jaeger-resource
     type: application
     urls:
@@ -1083,9 +1083,9 @@ entries:
     version: 1.34.1
   - apiVersion: v2
     appVersion: v1.34.0
-    created: "2021-09-27T05:31:24.929888032Z"
+    created: "2021-09-29T10:55:29.715221568Z"
     description: A chart for kiali resource related to service mesh
-    digest: f0810182896d8fd607497e89c74806807b7d03d6e2880e352d06dec2d566e3a7
+    digest: dab0aed67d7b6966a05047c24a1ade7f7294efdb453ab5d08bfa19d01d6c6342
     name: servicemesh-kiali-resource
     type: application
     urls:
@@ -1094,9 +1094,9 @@ entries:
   servicemesh-prometheusmonitor:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-09-29T10:45:27.636605087Z"
+    created: "2021-09-29T10:55:29.71546307Z"
     description: A chart for the additional servicemonitor related to service mesh
-    digest: e6395eb899ec93b401019c89f5f017e16200ae96e22281c68ace263a77db9ebf
+    digest: 5fdde1a085b375b1aa272acfe5d7a164c12f53f1c2baec12e099cf65d5ec22cf
     name: servicemesh-prometheusmonitor
     type: application
     urls:
@@ -1105,9 +1105,9 @@ entries:
   servicemesh-prometheusrule:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-09-29T10:45:27.636862387Z"
+    created: "2021-09-29T10:55:29.715656271Z"
     description: A chart for the additional prometheusrule related to service mesh
-    digest: 1f41925b61c9cf813fe800ff6a75fe0f364c2776defaea782cd3b441f3f3d4ed
+    digest: 3a78113951170af012d092a94022325084a9374e483ac42d2f25eeb122f88db6
     name: servicemesh-prometheusrule
     type: application
     urls:
@@ -1201,4 +1201,4 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/tks-info-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-29T10:45:27.624814987Z"
+generated: "2021-09-29T10:55:29.703059594Z"

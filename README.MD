@@ -10,5 +10,6 @@
 ### 외부에서 가져와서 사용하는 helm-chart
 
 - prometheus-process-exporter: openstack-helm-infra 진영의 챠트사용 - https://github.com/openstack/openstack-helm-infra/tree/master/prometheus-process-exporter
-- 그외 prometheus류: prometheus-community 전영의 챠트사용 - https://github.com/prometheus-community/helm-charts/tree/main/charts
+- 그외 prometheus류: prometheus-community 진영의 챠트사용 - https://github.com/prometheus-community/helm-charts/tree/main/charts
+- grafana: grafana에서 운영하는 챠트 - https://github.com/grafana/helm-charts/tree/main/charts
 - 

@@ -3,9 +3,9 @@ entries:
   argo:
   - apiVersion: v1
     appVersion: v2.12.5
-    created: "2022-02-04T01:57:15.190171624Z"
+    created: "2022-02-08T01:17:27.136888975Z"
     description: Argo Helm Chart
-    digest: 3424005949d4e5518ba3a6260185176e701cffcc772922d69c31f41e24bf4417
+    digest: 186e65d7b1e3e386c57363356e7fe2197350e809cd1f2fdb7590924ff0619336
     name: argo
     urls:
     - https://openinfradev.github.io/helm-repo/argo-1.1.0.tgz
@@ -79,9 +79,9 @@ entries:
   cloud-console:
   - apiVersion: v1
     appVersion: 1.0.4
-    created: "2022-02-04T01:57:15.191095531Z"
+    created: "2022-02-08T01:17:27.137761982Z"
     description: Monitoring Dashboard for Tacoplay
-    digest: 18413363290a8b0fba249360be7bd7b5afd75d89610a457997954a6439aad680
+    digest: 1d846dcd3734caf21791df4c23960b2e25861697a0484ce7ca4d8c3459ce8c60
     name: cloud-console
     urls:
     - https://openinfradev.github.io/helm-repo/cloud-console-1.0.7.tgz
@@ -98,10 +98,10 @@ entries:
   cluster-api-aws:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-02-04T01:57:15.191815136Z"
+    created: "2022-02-08T01:17:27.138498687Z"
     description: A chart to install Kubernetes cluster using Cluster API Provider
       AWS
-    digest: b262b4678e12390e62b6f2915a177fc8eb80423719e3fe29846dabc40c212860
+    digest: 8a59bc38de5ba8901cec6fa4f9be43a144058ec66de2b86fd5b66d9f01af2ceb
     name: cluster-api-aws
     type: application
     urls:
@@ -176,14 +176,14 @@ entries:
   cluster-api-openstack:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-02-04T01:57:15.195830364Z"
+    created: "2022-02-08T01:17:27.141941413Z"
     dependencies:
     - name: helm-toolkit
       repository: https://openinfradev.github.io/helm-repo
       version: '>= 0.1.0'
     description: Install Cluster API Provider OpenStack manifests to generate a fully
       working Kubernetes cluster
-    digest: 5b8997d5fc8478a0f95f1bc31b092b065f1cbaaa0d255609a47131dd0a06c13a
+    digest: b5dfc2814dc13b6dda8ad304f9408fb9af98aaf94fa3ef404945c3381844923f
     keywords:
     - clusterapi
     - provisioning
@@ -197,11 +197,22 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/cluster-api-openstack-1.0.0.tgz
     version: 1.0.0
+  cluster-autoscaler:
+  - apiVersion: v2
+    appVersion: 1.22.2
+    created: "2022-02-08T01:17:27.142422916Z"
+    description: cluster-autoscaler for cluster-api cloud provder
+    digest: 854cef305d733a8be47b84c301635d4e966f52ea73a9790e71d3b4526f22bf12
+    name: cluster-autoscaler
+    type: application
+    urls:
+    - https://openinfradev.github.io/helm-repo/cluster-autoscaler-0.1.0.tgz
+    version: 0.1.0
   cronjob-backup-cloudconsole:
   - apiVersion: v2
-    created: "2022-02-04T01:57:15.196350667Z"
+    created: "2022-02-08T01:17:27.14293722Z"
     description: A cronjob helm chart for backup cloud-console
-    digest: 760866aab70aa3926b593a55179af1981a647236c1aac72a635042a8365700c5
+    digest: fb4fa94d7bbd76f65ab1afb17f46cc511aa0139b2e9baec3a6c7af4a0f5a112a
     name: cronjob-backup-cloudconsole
     urls:
     - https://openinfradev.github.io/helm-repo/cronjob-backup-cloudconsole-1.0.0.tgz
@@ -209,18 +220,18 @@ entries:
   cronjob-backup-jenkins:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-02-04T01:57:15.196664369Z"
+    created: "2022-02-08T01:17:27.143231722Z"
     description: A Helm chart for Kubernetes
-    digest: 961a20be38c0f5ec3b4f58b034ea436270b0816687dbaf2d7b7cfef5ed4f9276
+    digest: 2f51e4f472b3a19f10dc0d4282f23b546a3cc7565b5d54f5a7831a6af9d54a4c
     name: cronjob-backup-jenkins
     urls:
     - https://openinfradev.github.io/helm-repo/cronjob-backup-jenkins-1.0.0.tgz
     version: 1.0.0
   cronjob-backup-keycloak:
   - apiVersion: v2
-    created: "2022-02-04T01:57:15.197321674Z"
+    created: "2022-02-08T01:17:27.143868127Z"
     description: A cronjob helm chart for backup realm in keycloak
-    digest: a36b6d391e205aa04e9d873a7b633272df6928962c8d7c6f21fc64a571a1da67
+    digest: a063dc9f8ba19f145deb18f50f457d9c730bc52a4e4faebcf418a20c86e510ef
     name: cronjob-backup-keycloak
     urls:
     - https://openinfradev.github.io/helm-repo/cronjob-backup-keycloak-1.0.2.tgz
@@ -228,9 +239,9 @@ entries:
   custom-network:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-02-04T01:57:15.197779777Z"
+    created: "2022-02-08T01:17:27.144585933Z"
     description: A Helm chart for Kubernetes
-    digest: 0a33b75c9ad21396443ad4421fa1c1a38ac299e00dfa5e845cc42e411d499066
+    digest: 5763e0fe3eccbdd23545c669baa9ae3727ebdc92fb5a208d0ae2d385106497b7
     name: custom-network
     urls:
     - https://openinfradev.github.io/helm-repo/custom-network-1.0.10.tgz
@@ -238,9 +249,9 @@ entries:
   eck-resource:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-02-04T01:57:15.198865485Z"
+    created: "2022-02-08T01:17:27.14552754Z"
     description: Deploy resources of eck operator
-    digest: 953c75fd8bb0541bc57b3cdb499abb72a5d63ac446e8d0d5af80c0c738fa89bd
+    digest: 0d7499a621c924daae228937f5dc633bc990afd1d4f7ed3fd76fe0a27b98f290
     name: eck-resource
     urls:
     - https://openinfradev.github.io/helm-repo/eck-resource-1.1.1.tgz
@@ -275,9 +286,9 @@ entries:
   elasticsearch-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-02-04T01:57:15.200894599Z"
+    created: "2022-02-08T01:17:27.147515454Z"
     description: A Helm chart for Kubernetes
-    digest: dcb9d3c11e2e6d240dd7c06dc336953cbf0453e4179e3261d576c78ee7cffa4b
+    digest: 772d8023f0bbcd4b13c4b3134f3af5d783eaa5844dddbab7fac1ed043fde99b9
     name: elasticsearch-operator
     urls:
     - https://openinfradev.github.io/helm-repo/elasticsearch-operator-1.0.3.tgz
@@ -285,10 +296,10 @@ entries:
   fluentbit-operator:
   - apiVersion: v1
     appVersion: v1.8.3
-    created: "2022-02-04T01:57:15.204297923Z"
+    created: "2022-02-08T01:17:27.151117381Z"
     description: Provide easy log collecting definition for kubernetes pods and their
       hosts, and management of fluentbit
-    digest: abb0a91cc454ef511e961b5e25a7c3d636ea89e5c0f2ec31339665b8d27e2cbb
+    digest: e127341286cfa54034044d517e9d634e672ea2697f7ed09921a8be8d503ccae2
     icon: https://dashboard.snapcraft.io/site_media/appmedia/2020/02/logo-square.png
     keywords:
     - fluentbit
@@ -545,9 +556,9 @@ entries:
     version: 2.21.2
   - apiVersion: v1
     appVersion: 1.21.2
-    created: "2022-02-04T01:57:15.204917027Z"
+    created: "2022-02-08T01:17:27.151757486Z"
     description: jaeger-operator Helm chart for Kubernetes
-    digest: 7eb81b2c5e2c63c15ac53cae3f492473e5c9a049a7c93e9f22d6f0e466bcc8c9
+    digest: beb4e8e75f519ed859dfd426c8d2fc77c7c1ff852905a638a26734efc749949b
     home: https://www.jaegertracing.io/
     icon: https://www.jaegertracing.io/img/jaeger-icon-reverse-color.svg
     maintainers:
@@ -564,7 +575,7 @@ entries:
   keycloak:
   - apiVersion: v1
     appVersion: 10.0.0
-    created: "2022-02-04T01:57:15.212462979Z"
+    created: "2022-02-08T01:17:27.158631937Z"
     dependencies:
     - condition: keycloak.persistence.deployPostgres
       name: postgresql
@@ -572,7 +583,7 @@ entries:
       version: 8.9.5
     description: Open Source Identity and Access Management For Modern Applications
       and Services
-    digest: 53840c55b45703ab98d1b01fb90361b0b83a7797ca1b3a77a0a53a9eb5cf3276
+    digest: e84a2aec60bece9d24e797cd7eb69aadd7baa8eee51230e0aa482ec5fd2d2533
     home: https://www.keycloak.org/
     icon: https://www.keycloak.org/resources/images/keycloak_logo_480x108.png
     keywords:
@@ -617,9 +628,9 @@ entries:
   kubernetes-addons:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-02-04T01:57:15.213724888Z"
+    created: "2022-02-08T01:17:27.160060148Z"
     description: Install Kubernetes addons for completing cluster setup
-    digest: 03f3c507af1a326164749f0c9cd3465efe1c7b6b75d21f998e7612650693a5fc
+    digest: 5e1285107189e24cae966996c549105e141f14f6861f95e381b2741e5c528e0d
     keywords:
     - kubernetes
     - bootstrapping
@@ -636,9 +647,9 @@ entries:
   kubernetes-event-exporter:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-04T01:57:15.214107891Z"
+    created: "2022-02-08T01:17:27.160715653Z"
     description: A Helm chart for Kubernetes
-    digest: f33f6fc6a5a885311571422ac2adc35ba63243e55a1d382a0705713439dc5d9d
+    digest: 6ad520371930f2996d4b9554e513c194083c14efc254f84f70f778862e57c391
     name: kubernetes-event-exporter
     type: application
     urls:
@@ -666,9 +677,9 @@ entries:
   lma-addons:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-02-04T01:57:15.220978139Z"
+    created: "2022-02-08T01:17:27.167733805Z"
     description: Kubernetes Resources for TACO Project
-    digest: 292e6e65cdfc87f8ae0aad790bd96ca4706e10196583afc55024d38ea10f8ef0
+    digest: ab3394fb396c602275ae89557e2c22ea5f16bd3a0e57b97ec4871b9b444e0c80
     name: lma-addons
     urls:
     - https://openinfradev.github.io/helm-repo/lma-addons-1.7.0.tgz
@@ -890,9 +901,9 @@ entries:
   prepare-decapod-controller:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-02-04T01:57:15.22117554Z"
+    created: "2022-02-08T01:17:27.167992507Z"
     description: Chart for decapod-controller preparation such as DB secret creation
-    digest: 08dade9e37a9e4415199faeacc75ff13d75190a4a7d7d642600c1a45853d17df
+    digest: 4fb9e7d51f756469669d17bd41a5d476112448b9179cb1a51d109e5f29e02414
     name: prepare-decapod-controller
     urls:
     - https://openinfradev.github.io/helm-repo/prepare-decapod-controller-0.1.0.tgz
@@ -900,9 +911,9 @@ entries:
   prepare-etcd-secret:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-02-04T01:57:15.221488742Z"
+    created: "2022-02-08T01:17:27.168414011Z"
     description: create etcd secret for prometheus
-    digest: ff26068b43d83aa6e8ffff9de2150d918ad0837ae7bb14611a1355374c118aac
+    digest: 0eb87932e47530f14ae8b2a6e08e2448e20ac24a6241ad48a63a385db2334b34
     name: prepare-etcd-secret
     type: application
     urls:
@@ -1013,9 +1024,9 @@ entries:
   rook-ceph-cluster:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-02-04T01:57:15.221974346Z"
+    created: "2022-02-08T01:17:27.169100316Z"
     description: Chart for Rook Ceph cluster deployment
-    digest: b95cfebdcf248531b99ba3a55f1206de6c757db0ccd6deab8876bc074240acab
+    digest: a843a19d9e9fecbb75244f92b7d63eccb7fc1a624ca05ac3c340bd4a97d5181b
     name: rook-ceph-cluster
     urls:
     - https://openinfradev.github.io/helm-repo/rook-ceph-cluster-0.0.3.tgz
@@ -1041,9 +1052,9 @@ entries:
   sample-hpa-app:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-02-04T01:57:15.222220847Z"
+    created: "2022-02-08T01:17:27.169323317Z"
     description: A Helm chart for Kubernetes
-    digest: aba293f8026769a04b537ebe98818c14c2a59da94e87c74ed8447d785d64652c
+    digest: d5cac6c8dea7f3d4537202d0bb5672f794fa69f8172d391294e12ee3e475120f
     name: sample-hpa-app
     urls:
     - https://openinfradev.github.io/helm-repo/sample-hpa-app-0.1.0.tgz
@@ -1068,9 +1079,9 @@ entries:
   service-mesh-resource:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-04T01:57:15.222524449Z"
+    created: "2022-02-08T01:17:27.16966152Z"
     description: A chart for the additional k8s resources related to service mesh
-    digest: 327a4ee0b1c1cdca859da55b90182a5801e00aa7acf9e68c8ff6b12749b14f6b
+    digest: 91dc815c62ec04035f9360f37499e7687e15cecaf4dffc0fdbf3c238d8b2f07b
     name: service-mesh-resource
     type: application
     urls:
@@ -1139,9 +1150,9 @@ entries:
   servicemesh-grafana-dashboard:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2022-02-04T01:57:15.223624557Z"
+    created: "2022-02-08T01:17:27.170805328Z"
     description: A chart for the additional grafana dashboard related to service mesh
-    digest: d0931229f8c48e315b4001b2b743df8beb7c8d274f9b24903e6b8a7490650823
+    digest: 23300beb2ec8f42e120885986aafb43360cee43a438683a67e505bd0f4a480bd
     name: servicemesh-grafana-dashboard
     type: application
     urls:
@@ -1150,9 +1161,9 @@ entries:
   servicemesh-istio-resource:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2022-02-04T01:57:15.224207161Z"
+    created: "2022-02-08T01:17:27.171399633Z"
     description: A chart for the additional k8s resources related to service mesh
-    digest: 75f1a790476b1db62faec8b6cae43e85fbf10d46577c6b51afb5581683499418
+    digest: 318703296470873d89ef766f853008b2fcc6aea27a529e4f44016db9e4e4a8be
     name: servicemesh-istio-resource
     type: application
     urls:
@@ -1171,9 +1182,9 @@ entries:
     version: 2.21.3
   - apiVersion: v2
     appVersion: 1.22.1
-    created: "2022-02-04T01:57:15.224567564Z"
+    created: "2022-02-08T01:17:27.171772036Z"
     description: A chart for jaeger resource related to service mesh
-    digest: 470cb1b98aea787936af676890a1f0190eb2861c8fdf1b3138f5d372ba651e97
+    digest: 260876ce68ab0b2832465d6bcb7b4b3fc5b5c5fe69f105635b2e3413c81351f4
     name: servicemesh-jaeger-resource
     type: application
     urls:
@@ -1202,9 +1213,9 @@ entries:
     version: 1.34.1
   - apiVersion: v2
     appVersion: v1.34.0
-    created: "2022-02-04T01:57:15.225019967Z"
+    created: "2022-02-08T01:17:27.172283339Z"
     description: A chart for kiali resource related to service mesh
-    digest: 02cca9d0aa967e3c79efdbd6c36d5c2f0c3dec9d693d805971b1d576af01e974
+    digest: 209c8690b5ac7e89efda42cd6b345f33876e4424460b6a1304205356a53eef19
     name: servicemesh-kiali-resource
     type: application
     urls:
@@ -1213,9 +1224,9 @@ entries:
   servicemesh-prometheusmonitor:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2022-02-04T01:57:15.225215668Z"
+    created: "2022-02-08T01:17:27.172493641Z"
     description: A chart for the additional servicemonitor related to service mesh
-    digest: 7812ba7c3cfd8f5be5e0fbdffa483e7996fb4f851752291d22806edc6c68fa53
+    digest: 7670380e1a59911935002fb081e6599472524954f6e12be1c30685ab9eec8c90
     name: servicemesh-prometheusmonitor
     type: application
     urls:
@@ -1224,9 +1235,9 @@ entries:
   servicemesh-prometheusrule:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2022-02-04T01:57:15.22542207Z"
+    created: "2022-02-08T01:17:27.172721243Z"
     description: A chart for the additional prometheusrule related to service mesh
-    digest: d444356ca59ba14b0c058bd4314e74cb6db30888bbca74f8c47c0e6bf70dae34
+    digest: e7e7d9e076b1d570673bcd03cef55d36f41c2d4ae1c0a9be012a6ca3c5ef92be
     name: servicemesh-prometheusrule
     type: application
     urls:
@@ -1235,9 +1246,9 @@ entries:
   site-mirror-registry:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-02-04T01:57:15.225753872Z"
+    created: "2022-02-08T01:17:27.173059145Z"
     description: docker registry for site mirroring
-    digest: d1c1e5c5cb4ec8fbbdd68b3cfd4d3f89295bb939944b072622f5a7922ae4d9c4
+    digest: 71d481667c902b71a49a87d24d748712532d720726122fe18e2e43fee825468c
     name: site-mirror-registry
     urls:
     - https://openinfradev.github.io/helm-repo/site-mirror-registry-0.0.3.tgz
@@ -1260,9 +1271,9 @@ entries:
   taco-registry:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-02-04T01:57:15.22684028Z"
+    created: "2022-02-08T01:17:27.174175554Z"
     description: A Helm chart for Kubernetes
-    digest: d69c084480bf66e7f885cbf34a0c6234e6ecd7cbbc02fcc1db298ca02e6d14f0
+    digest: 3acebcc36bbfd011338e7db2fc5661ca02df13f5106ca0e7fd6df8627be70970
     name: taco-registry
     urls:
     - https://openinfradev.github.io/helm-repo/taco-registry-1.0.6.tgz
@@ -1270,9 +1281,9 @@ entries:
   taco-watcher:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-02-04T01:57:15.227462584Z"
+    created: "2022-02-08T01:17:27.174743058Z"
     description: Monitoring Dashboard for Tacoplay
-    digest: a224cf4a199cd5dd0ea7e3d3194a2b89f3d779f63dbcf2cc85f5134474688e8e
+    digest: 855baa569658cbc5e86d3663b02eed4c8e3825e0c24689faa09354cf42358eb4
     name: taco-watcher
     urls:
     - https://openinfradev.github.io/helm-repo/taco-watcher-0.1.0.tgz
@@ -1280,9 +1291,9 @@ entries:
   thanos-config:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-02-04T01:57:15.227744486Z"
+    created: "2022-02-08T01:17:27.17498836Z"
     description: Chart for Thanos configuration
-    digest: cccef033d2efe846a5585fcab4efa8d099e51188f18b4a3cd8b229ab0c8bb175
+    digest: 626c12f6ce6aa6a4a4f109245e91caa2913060ff38cae03de60f99072783f492
     name: thanos-config
     urls:
     - https://openinfradev.github.io/helm-repo/thanos-config-0.1.3.tgz
@@ -1290,9 +1301,9 @@ entries:
   tks-cluster-lcm:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-02-04T01:57:15.228215189Z"
+    created: "2022-02-08T01:17:27.175482663Z"
     description: A Helm chart for tks-cluster-lcm
-    digest: 3a76b6020744b594410d2286f498f1021f6bd3fc6d9776002883d1014100f5c1
+    digest: f853f93e8f5f467063ec0f63c1eaadf8132206fe4bffbe3e8d706a47dea7c162
     name: tks-cluster-lcm
     type: application
     urls:
@@ -1301,9 +1312,9 @@ entries:
   tks-contract:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-02-04T01:57:15.228768393Z"
+    created: "2022-02-08T01:17:27.176014067Z"
     description: A Helm chart for tks-contract
-    digest: a3f17fd2d6c9fa896af53646e7a9efc2e59ea590b750ec1934191898df868978
+    digest: 0d0aa92e51c4846196fc98d2eccf09a28cd6187d4fdf9107d8668083ec9c2e5d
     name: tks-contract
     type: application
     urls:
@@ -1312,12 +1323,12 @@ entries:
   tks-info:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-02-04T01:57:15.229292797Z"
+    created: "2022-02-08T01:17:27.176580372Z"
     description: A Helm chart for tks-info
-    digest: 9d535e5a75a0db3b7353aec64ef6f585bf7c3a7216d22463ec917ace51a7eeee
+    digest: 5181897a8845be01cb7f384d2e1f1708145489d79482ccc60c13b78482837092
     name: tks-info
     type: application
     urls:
     - https://openinfradev.github.io/helm-repo/tks-info-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-04T01:57:15.18953342Z"
+generated: "2022-02-08T01:17:27.13621527Z"

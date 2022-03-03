@@ -553,9 +553,9 @@ entries:
     version: 0.1.0
   istio-operator:
   - apiVersion: v1
-    created: "2022-03-01T12:21:27.266275286Z"
+    created: "2022-03-03T03:17:44.481547506Z"
     description: Helm chart for deploying Istio operator
-    digest: c1a40b40637866b6acda3d27bf3da7000dc8f4ff9231e38e52cf0ad79fbfe1a1
+    digest: 6e9cd3a5acd63139070b1fc9185d9523a8ff67b4c23c52aef1b46d741dd0947b
     icon: https://istio.io/latest/favicons/android-192x192.png
     keywords:
     - istio
@@ -1395,4 +1395,4 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/tks-info-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-02T06:17:21.914298825Z"
+generated: "2022-03-03T03:17:44.480156623Z"

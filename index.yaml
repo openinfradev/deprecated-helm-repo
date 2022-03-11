@@ -24,6 +24,21 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/argo-0.1.0.tgz
     version: 0.1.0
+  base:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2022-03-11T03:21:05.233158055Z"
+    description: Helm chart for deploying Istio cluster resources and CRDs
+    digest: e6e530c8e5c00e79ffc38d4db1909037c5ec3f3ff54adf6dfa8ce9c458b3abc9
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    name: base
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://openinfradev.github.io/helm-repo/base-1.0.0.tgz
+    version: 1.0.0
   ceph-provisioners:
   - apiVersion: v1
     created: "2022-03-01T12:21:27.006110467Z"
@@ -435,6 +450,23 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/fluentbit-skt-1.0.0.tgz
     version: 1.0.0
+  gateway:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-03-11T03:21:05.233789243Z"
+    description: Helm chart for deploying Istio gateways
+    digest: 4c8ee32221296324802edaa16ee89824132224a91e45ed06438687737d5507ba
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - gateways
+    name: gateway
+    sources:
+    - http://github.com/istio/istio
+    type: application
+    urls:
+    - https://openinfradev.github.io/helm-repo/gateway-1.0.0.tgz
+    version: 1.0.0
   glance:
   - apiVersion: v1
     created: "2022-03-01T12:21:27.184008723Z"
@@ -551,6 +583,23 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/ironic-0.1.0.tgz
     version: 0.1.0
+  istio-egress:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2022-03-11T03:21:05.234813324Z"
+    description: Helm chart for deploying Istio gateways
+    digest: 8be12e3939dac1b953dbcb14c5afd1802f17f33a1d53cfabf49c151259e0e80f
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - egressgateway
+    - gateways
+    name: istio-egress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://openinfradev.github.io/helm-repo/istio-egress-1.0.0.tgz
+    version: 1.0.0
   istio-operator:
   - apiVersion: v1
     created: "2022-03-03T05:42:24.652720843Z"
@@ -566,7 +615,42 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/istio-operator-1.7.0.tgz
     version: 1.7.0
+  istiod:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2022-03-11T03:21:05.237546971Z"
+    description: Helm chart for istio control plane
+    digest: 4e8523079a5d1fae02d1e804f5a5b38ac47e23fa1ebcc10e3315890aa7532bc2
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    name: istiod
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://openinfradev.github.io/helm-repo/istiod-1.0.0.tgz
+    version: 1.0.0
   jaeger-operator:
+  - apiVersion: v1
+    appVersion: 1.29.1
+    created: "2022-03-11T03:21:05.239748929Z"
+    description: jaeger-operator Helm chart for Kubernetes
+    digest: 314768ad78011e3081aa2c78b190a39111376bdff0ed56fbb8c7dca6bd2f3182
+    home: https://www.jaegertracing.io/
+    icon: https://www.jaegertracing.io/img/jaeger-icon-reverse-color.svg
+    maintainers:
+    - email: ctadeu@gmail.com
+      name: cpanato
+    - email: batazor111@gmail.com
+      name: batazor
+    name: jaeger-operator
+    sources:
+    - https://github.com/jaegertracing/jaeger-operator
+    urls:
+    - https://openinfradev.github.io/helm-repo/jaeger-operator-2.27.1.tgz
+    version: 2.27.1
   - apiVersion: v1
     appVersion: 1.24.0
     created: "2022-03-03T05:42:24.653412735Z"
@@ -1438,4 +1522,4 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/tks-info-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-08T05:37:11.85024569Z"
+generated: "2022-03-11T03:21:05.228707241Z"

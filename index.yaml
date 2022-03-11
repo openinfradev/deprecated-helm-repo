@@ -597,6 +597,21 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/ironic-0.1.0.tgz
     version: 0.1.0
+  istio-base:
+  - apiVersion: v1
+    appVersion: 1.13.1
+    created: "2022-03-11T04:16:54.530789497Z"
+    description: Helm chart for deploying Istio cluster resources and CRDs
+    digest: b97df46031c1a8ac162aa66ce96694528f7c542b8e6622b53fccc18582b405a7
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    name: istio-base
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://openinfradev.github.io/helm-repo/istio-base-1.13.1.tgz
+    version: 1.13.1
   istio-egress:
   - apiVersion: v1
     appVersion: 1.0.0
@@ -617,9 +632,9 @@ entries:
   istio-egress-gateway:
   - apiVersion: v1
     appVersion: 1.13.1
-    created: "2022-03-11T03:58:34.268168836Z"
+    created: "2022-03-11T04:16:54.531821061Z"
     description: Helm chart for deploying Istio gateways
-    digest: 3363383c0e3e7e3214bcc79cd676bae958e309d9c0f819fcec2298e481d04b77
+    digest: 457d7e69d55a92b515d17d7d7f6cd54903aa6d37b9adc0a7948eb8b7f108aceb
     icon: https://istio.io/latest/favicons/android-192x192.png
     keywords:
     - istio
@@ -634,9 +649,9 @@ entries:
   istio-ingress-gateway:
   - apiVersion: v2
     appVersion: 1.13.1
-    created: "2022-03-11T03:58:34.268901697Z"
+    created: "2022-03-11T04:16:54.532962232Z"
     description: Helm chart for deploying Istio gateways
-    digest: a7e04a501ead7e0dd9f2c89df4fa3cb0c6f08d0b085473c9b6425929bb8ac0b0
+    digest: e00376d06dde8d8cc58c0c510f8881d6f8af65776e3f257c8cc0f26ba71ad3de
     icon: https://istio.io/latest/favicons/android-192x192.png
     keywords:
     - istio
@@ -666,9 +681,9 @@ entries:
   istiod:
   - apiVersion: v1
     appVersion: 1.13.1
-    created: "2022-03-11T03:58:34.27207336Z"
+    created: "2022-03-11T04:16:54.535665201Z"
     description: Helm chart for istio control plane
-    digest: 7dc96e6bc58f7a8e317b4a0bc1340799e729ad6b91bfbc04611cb12b22ccb309
+    digest: 61b4ae4b594295f655fee5069f951367bf8f63b1d1e9e818835c04a5dbe851bd
     icon: https://istio.io/latest/favicons/android-192x192.png
     keywords:
     - istio
@@ -1586,4 +1601,4 @@ entries:
     urls:
     - https://openinfradev.github.io/helm-repo/tks-info-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-11T03:58:34.262662279Z"
+generated: "2022-03-11T04:16:54.527450188Z"
